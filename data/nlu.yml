@@ -1,0 +1,618 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - Selam
+    - Merhaba
+    - Naber
+    - Hey
+    - Slm
+    - Mrb
+    - Merhabalar
+    - Günaydın
+    - Tünaydın
+    - Naptın
+    - Esenlikler
+    - Selamun aleyküm
+    - Hello
+    - Napıyorsun
+    - Nabıyon
+    - Nasılsın
+    - Selam olsun
+    - Hayırlı sabahlar
+    - Hayırlı akşamlar
+    - hop
+    - ne var ne yok
+    - selam
+    - merhaba
+    - hello
+    - naber
+- intent: goodbye
+  examples: |
+    - Görüşmek üzere
+    - Bay bay
+    - bb
+    - bye
+    - Hoşça kalın
+    - Görüşürüz
+    - Elveda
+    - Kendine iyi bak
+    - kolay gelsin
+    - İyi günler
+    - İyi öğlenler
+    - İyi akşamlar
+    - İyi geceler
+    - güle güle
+    - Selametle
+- intent: name_info
+  examples: |
+    - Benim Adım [Şahnur](name)
+    - Benim Adım [Sude](name)
+    - Benim Adım [Efe](name)
+    - Benim Adım [Emre](name)
+    - Benim Adım [Arda](name)
+    - Benim Adım [Mehmet](name)
+    - Benim Adım [Melek](name)
+    - Benim Adım [Melisa](name)
+    - Benim Adım [Gökhan](name)
+    - Adım [Serhat](name)
+    - Adım [Nuray](name)
+    - Adım [Berfin](name)
+    - Adım [Burak](name)
+    - Adım [Ela](name)
+    - Adım [Ahmet](name)
+    - Adım [Arda](name)
+    - Adım [Ömer](name)
+    - Adım [Mustafa](name)
+    - Adım [Yiğit](name)
+    - Ben [Hülya](name)
+    - Ben [Mustafa](name)
+    - Ben [Süleyman](name)
+    - Ben [Ayhan](name)
+    - Ben [Ela](name)
+    - Ben [Mehmet](name)
+    - Ben [Hüseyin](name)
+    - Ben [Hasan](name)
+    - Ben [Şevval](name)
+    - Ben [Çiğdem](name)
+    - Bana [Melek](name) derler
+    - Bana [Aleyna](name) derler
+    - Bana [Sevim](name) derler
+    - Bana [Yusuf](name) derler
+    - Bana [Aysel](name) derler
+    - Bana [İlayda](name) derler
+    - Bana [Ela](name) derler
+    - Bana [Süleyman](name) derler
+    - Bana [Gamze](name) derler
+    - Bana [Filiz](name) derler
+    - Herkes [Hanife](name) ile çağırır
+    - Herkes [Ece](name) ile çağırır
+    - Herkes [Emirhan](name) ile çağırır
+    - Herkes [Emine](name) ile çağırır
+    - Herkes [Hacer](name) ile çağırır
+    - Herkes [Tuğba](name) ile çağırır
+    - Herkes [Melisa](name) ile çağırır
+    - Herkes [Burak](name) ile çağırır
+    - Herkes [Batuhan](name) ile çağırır
+    - Herkes [Büşra](name) ile çağırır
+    - Herkes [Ertuğ](name) diye hitap eder
+    - Herkes [Nadir](name) diye hitap eder
+    - Herkes [Edhem](name) diye hitap eder
+    - Herkes [Özgul](name) diye hitap eder
+    - Herkes [Derin](name) diye hitap eder
+    - Herkes [Çağdaş](name) diye hitap eder
+    - Herkes [Ari](name) diye hitap eder
+    - Herkes [Cafer](name) diye hitap eder
+    - Herkes [Tahsin](name) diye hitap eder
+    - Herkes [Emin](name) diye hitap eder
+    - ad: [Güvenç](name)
+    - ad: [Yılmaz](name)
+    - ad: [Cihangir](name)
+    - ad: [Ahmet](name)
+    - ad: [Elvan](name)
+    - ad: [Sümeyye](name)
+    - ad: [Gülnur](name)
+    - ad: [Adnan](name)
+    - ad: [Yahya](name)
+    - ad: [Kemal](name)
+    - isim: [Altan](name)
+    - isim: [İsmet](name)
+    - isim: [Mümin](name)
+    - isim: [Dilek](name)
+    - isim: [Ekin](name)
+    - isim: [Hande](name)
+    - isim: [Azize](name)
+    - isim: [ırmak](name)
+    - isim: [Abdullah](name)
+    - isim: [Ekrem](name)
+    - Kısaca [Şevket](name) derler
+    - Kısaca [Alattin](name) derler
+    - Kısaca [Uğur](name) derler
+    - Kısaca [Aysu](name) derler
+    - Kısaca [Berkant](name) derler
+    - Kısaca [Engin](name) derler
+    - Kısaca [Mansur](name) derler
+    - Kısaca [Yunus](name) derler
+    - Kısaca [Aleyna](name) derler
+    - Kısaca [Züleyha](name) derler
+    - [Umut](name)
+    - [Funda](name)
+    - [Derya](name)
+    - [Müge](name)
+    - [Elmas](name)
+    - [Hakan](name)
+    - [Safiye](name)
+    - [Semra](name)
+    - [Emirhan](name)
+    - [Volkan](name)
+    - İsmim [İlker](name)
+    - İsmim [Nurettin](name)
+    - İsmim [Utku](name)
+    - İsmim [Aydan](name)
+    - İsmim [Burcu](name)
+    - İsmim [Ziynet](name)
+    - İsmim [Betül](name)
+    - İsmim [Gözde](name)
+    - İsmim [Nurcan](name)
+    - İsmim [Ayberk](name)
+    - İsmim [Bilge](name)
+    - Benim ismim [Direnç](name)
+    - Benim ismim [Ural](name)
+    - Benim ismim [Alp](name)
+    - Benim ismim [Burhan](name)
+    - Benim ismim [İdris](name)
+    - Benim ismim [Zafer](name)
+    - Benim ismim [Emel](name)
+    - Benim ismim [Eylül](name)
+    - Benim ismim [Nida](name)
+    - Benim ismim [Revza](name)
+    - [Alparslan](name) derler bana
+    - [Alperen](name) derler bana
+    - [Buğra](name) derler bana
+    - [Poyraz](name) derler bana
+    - [Gül](name) derler bana
+    - [Gülbahar](name) derler bana
+    - [Nevra](name) derler bana
+    - [Sultan](name) derler bana
+    - [Tutku](name) derler bana
+    - [Kara](name) diye seslenirler
+    - [Naim](name) diye seslenirler
+    - [Yaşar](name) diye seslenirler
+    - [Baran](name) diye seslenirler
+    - [Cemal](name) diye seslenirler
+    - [Harun](name) diye seslenirler
+    - [Dilek](name) diye seslenirler
+    - [Ecrin](name) diye seslenirler
+    - [İrem](name) diye seslenirler
+    - [Ayşe](name) diye seslenirler
+    - Çoğu insan [Şehrazat](name) der
+    - Çoğu insan [Ediz](name) der
+    - Çoğu insan [Hadi](name) der
+    - Çoğu insan [Şahin](name) der
+    - Çoğu insan [Yamaç](name) der
+    - Çoğu insan [Azize](name) der
+    - Çoğu insan [Nihal](name) der
+    - Çoğu insan [Fehime](name) der
+    - Çoğu insan [Kıvanç](name) der
+    - Çoğu insan [Özgür](name) der
+    - [Ulvi](name) ismini tercih ediyorum
+    - [Semih](name) ismini tercih ediyorum
+    - [Boran](name) ismini tercih ediyorum
+    - [Efe](name) ismini tercih ediyorum
+    - [Çağla](name) ismini tercih ediyorum
+    - [Kerime](name) ismini tercih ediyorum
+    - [Ceylan](name) ismini tercih ediyorum
+    - [Cennet](name) ismini tercih ediyorum
+    - [Cemal](name) ismini tercih ediyorum
+    - [Ensar](name) ismini tercih ediyorum
+    - Çoğunlukla [Şerif](name) diye çağrılıyorum
+    - Çoğunlukla [Berat](name) diye çağrılıyorum
+    - Çoğunlukla [Emre](name) diye çağrılıyorum
+    - Çoğunlukla [Vural](name) diye çağrılıyorum
+    - Çoğunlukla [Dilay](name) diye çağrılıyorum
+    - Çoğunlukla [Tutku](name) diye çağrılıyorum
+    - Çoğunlukla [Şirin](name) diye çağrılıyorum
+    - Çoğunlukla [Kelebek](name) diye çağrılıyorum
+    - Çoğunlukla [Mehtap](name) diye çağrılıyorum
+    - Çoğunlukla [Şeyma](name) diye çağrılıyorum
+    - Çoğunlukla [Asım](name) diyorlar
+    - Çoğunlukla [Eser](name) diyorlar
+    - Çoğunlukla [Ömer](name) diyorlar
+    - Çoğunlukla [Faruk](name) diyorlar
+    - Çoğunlukla [Berna](name) diyorlar
+    - Çoğunlukla [Nefes](name) diyorlar
+    - Çoğunlukla [Rüşen](name) diyorlar
+    - Çoğunlukla [Batuhan](name) diyorlar
+    - Çoğunlukla [Ayla](name) diyorlar
+    - Çoğunlukla [Evren](name) diyorlar
+    - Tabi ki adım [Ugur](name)
+    - [Hülya](name)
+    - Adım [Süleyman](name)
+    - Adım [ugur](name)
+    - Merhaba ben [Hülya](name)
+    - Herkes [Mutsafa](name) der
+- intent: contact_info
+  examples: |
+    - [mio1@gmail.com](mail) [05504497678](phone)
+    - [malov0071996@gmail.com](mail) [05573058559](phone)
+    - [adesh948@gmail.com](mail) [05513847005](phone)
+    - [spektrx@gmail.com](mail) [05486605790](phone)
+    - [kristinamaz@hotmail.com](mail) [05559511301](phone)
+    - [tebrown55@hotmail.com](mail) [05574281148](phone)
+    - [qjazz@hotmail.com](mail) [05313998301](phone)
+    - [toneass@hotmail.com](mail) [05097549985](phone)
+    - [zheltyshovb@yahoo.com](mail) [05348907571](phone)
+    - [mercookaz@yahoo.com](mail) [05343180798](phone)
+    - [c1rcaman@yahoo.com](mail) [05001841283](phone)
+    - [rfs2008@yahoo.com](mail) [05440520024](phone)
+    - [05386313111](phone), [ginger2010@gmail.com](mail)
+    - [05506240648](phone), [kitatiksa@gmail.com](mail)
+    - [05385379924](phone), [frekes987@gmail.com](mail)
+    - [05088334529](phone), [wlanmojomro@gmail.com](mail)
+    - [05022734894](phone), [jose2033@hotmail.com](mail)
+    - [05019496265](phone), [skplehanovec@hotmail.com](mail)
+    - [05068728950](phone), [jtetu6380@hotmail.com](mail)
+    - [05060477487](phone), [ericx16@hotmail.com](mail)
+    - [05564062512](phone), [nadezhdakotenok@yahoo.com](mail)
+    - [05376041667](phone), [antinous@yahoo.com](mail)
+    - [05388665153](phone), [mrsfsgh2007@yahoo.com](mail)
+    - [05419199943](phone), [dabigbo55@yahoo.com](mail)
+    - Numaram [05470034953](phone), email [chidosyter@gmail.com](mail)
+    - Numaram [05595349235](phone), email [davealex@gmail.com](mail)
+    - Numaram [05455345825](phone), email [f989w830@gmail.com](mail)
+    - Numaram [05459445951](phone), email [alinafraga@gmail.com](mail)
+    - Numaram [05386491414](phone), email [acj76@hotmail.com](mail)
+    - Numaram [05335756268](phone), email [naya82@hotmail.com](mail)
+    - Numaram [05361112671](phone), email [chnoupi@hotmail.com](mail)
+    - Numaram [05578068380](phone), email [accounting86@hotmail.com](mail)
+    - Numaram [05577472732](phone), email [jerr696696@yahoo.com](mail)
+    - Numaram [05509617677](phone), email [froddob@yahoo.com](mail)
+    - Numaram [05575152148](phone), email [alkash2791@yahoo.com](mail)
+    - Numaram [05439824890](phone), email [fbgfbg2f1b1g45@yahoo.com](mail)
+    - E-mail adresim [meric.yazici@karaduman.edu.tr](mail) , telefon numaram [05000220072](phone)
+    - E-mail adresim [wyildizoglu@mynet.com](mail) , telefon numaram [05313501181](phone)
+    - E-mail adresim [kunter.ada@besok.com](mail) , telefon numaram [05057358558](phone)
+    - E-mail adresim [oakar@yandex.com.tr](mail) , telefon numaram [05473975774](phone)
+    - E-mail adresim [emir.gunday@uluhan.edu.tr](mail) , telefon numaram [05551845703](phone)
+    - E-mail adresim [ege.yorulmaz@yahoo.com](mail) , telefon numaram [05596335858](phone)
+    - E-mail adresim [cagan42@ilicali.info](mail) , telefon numaram [05484998411](phone)
+    - E-mail adresim [emir27@gmail.com](mail) , telefon numaram [05565361455](phone)
+    - E-mail adresim [sinem.karaer@mynet.com](mail) , telefon numaram [05525807076](phone)
+    - E-mail adresim [ptokatlioglu@yahoo.com](mail) , telefon numaram [05590120333](phone)
+    - Benim mail adresim [ozbir.cinar@baykam.com.tr](mail) ve telefon numaram [05507953735](phone)
+    - Benim mail adresim [berberoglu.armagan@hotmail.com](mail) ve telefon numaram [05089345858](phone)
+    - Benim mail adresim [ebru.sadiklar@gmail.com](mail) ve telefon numaram [05491837218](phone)
+    - Benim mail adresim [doruk23@turk.net](mail) ve telefon numaram [05474186215](phone)
+    - Benim mail adresim [aykac.meric@hotmail.com](mail) ve telefon numaram [05433359004](phone)
+    - Benim mail adresim [yigit73@yilmazer.com](mail) ve telefon numaram [05433934396](phone)
+    - Benim mail adresim [sinem47@erdogan.edu.tr](mail) ve telefon numaram [05430705072](phone)
+    - Benim mail adresim [cinar31@koyluoglu.com](mail) ve telefon numaram [05001664455](phone)
+    - Benim mail adresim [erbay.sinem@okur.com](mail) ve telefon numaram [05018321769](phone)
+    - Benim mail adresim [cyetkiner@yahoo.com](mail) ve telefon numaram [05329038225](phone)
+    - Tabi e mail adresim [ruya.kahveci@gmail.com](mail), numaram [05302615213](phone)
+    - Tabi e mail adresim [tunaboylu.efe@turk.net](mail), numaram [05399356869](phone)
+    - Tabi e mail adresim [atan.irem@mertoglu.info](mail), numaram [05027783187](phone)
+    - Tabi e mail adresim [burcu.poyrazoglu@mynet.com](mail), numaram [05324113706](phone)
+    - Tabi e mail adresim [ogun.akal@kilicci.net](mail), numaram [05416634143](phone)
+    - Tabi e mail adresim [aozbir@yalcin.com](mail), numaram [05395625215](phone)
+    - Tabi e mail adresim [uyetkiner@turkdogan.com.tr](mail), numaram [05583252759](phone)
+    - Tabi e mail adresim [xkocyigit@gmail.com](mail), numaram [05048660490](phone)
+    - Tabi e mail adresim [ebru13@hotmail.com](mail), numaram [05011063245](phone)
+    - Tabi e mail adresim [emel.sarioglu@orbay.net](mail), numaram [05386745883](phone)
+    - Telefon numaram [05355749958](phone), mail adresim [kagan21@gmail.com](mail)
+    - Telefon numaram [05508461709](phone), mail adresim [ktekelioglu@turk.net](mail)
+    - Telefon numaram [05537927759](phone), mail adresim [karaduman.ege@tasci.net](mail)
+    - Telefon numaram [05369374446](phone), mail adresim [guney97@superposta.com](mail)
+    - Telefon numaram [05475083106](phone), mail adresim [yazici.ece@turk.net](mail)
+    - Telefon numaram [05394363685](phone), mail adresim [demirbas.meric@superposta.com](mail)
+    - Telefon numaram [05404514333](phone), mail adresim [derin19@aybar.com](mail)
+    - Telefon numaram [05046412182](phone), mail adresim [sahnur61@hotmail.com](mail)
+    - Telefon numaram [05426804648](phone), mail adresim [cem40@kurutluoglu.com](mail)
+    - Telefon numaram [05029852056](phone), mail adresim [xadivar@superposta.com](mail)
+    - Mail [emel97@hotmail.com](mail), telefon numarası [05068794336](phone)
+    - Mail [turker57@ilicali.com.tr](mail), telefon numarası [05371662844](phone)
+    - Mail [tkormukcu@dagdas.net](mail), telefon numarası [05537623849](phone)
+    - Mail [camdali.sahnur@okumus.net](mail), telefon numarası [05591146641](phone)
+    - Mail [irem.alpugan@superposta.com](mail), telefon numarası [05595960902](phone)
+    - Mail [easikoglu@gurmen.net](mail), telefon numarası [05559683873](phone)
+    - Mail [velioglu.ruya@mynet.com](mail), telefon numarası [05524279046](phone)
+    - Mail [sinanoglu.cinar@superposta.com](mail), telefon numarası [05430852835](phone)
+    - Mail [irem59@gumuspala.info](mail), telefon numarası [05375052448](phone)
+    - Mail [sinem18@paksut.edu.tr](mail), telefon numarası [05578554611](phone)
+    - Evet mail adresim [xsuleymanoglu@pektemek.edu.tr](mail) ve numaram [05396242225](phone)
+    - Evet mail adresim [ekici.burcu@mynet.com](mail) ve numaram [05499271910](phone)
+    - Evet mail adresim [baturalp.emel@superposta.com](mail) ve numaram [05038281936](phone)
+    - Evet mail adresim [turker58@atan.info](mail) ve numaram [05458481318](phone)
+    - Evet mail adresim [umran.nalbantoglu@yahoo.com](mail) ve numaram [05565862839](phone)
+    - Evet mail adresim [umran.balaban@akyurek.info](mail) ve numaram [05570555137](phone)
+    - Evet mail adresim [xcetin@superposta.com](mail) ve numaram [05593898823](phone)
+    - Evet mail adresim [hakgul@hotmail.com](mail) ve numaram [05508045375](phone)
+    - Evet mail adresim [derin04@agaoglu.net](mail) ve numaram [05593340822](phone)
+    - Evet mail adresim [umran.ozkara@yandex.com.tr](mail) ve numaram [05362451076](phone)
+    - Kullandığım mail adresim [ebru.yalcin@dogan.edu.tr](mail) ve telefon numaram [05372372299](phone)
+    - Kullandığım mail adresim [jpaksut@baykam.org](mail) ve telefon numaram [05341348304](phone)
+    - Kullandığım mail adresim [toprak42@alpugan.net](mail) ve telefon numaram [05545691888](phone)
+    - Kullandığım mail adresim [btutuncu@menemencioglu.com](mail) ve telefon numaram [05051211690](phone)
+    - Kullandığım mail adresim [ifahri@turk.net](mail) ve telefon numaram [05045251638](phone)
+    - Kullandığım mail adresim [umran.okur@turk.net](mail) ve telefon numaram [05090944015](phone)
+    - Kullandığım mail adresim [adal.ebru@yandex.com.tr](mail) ve telefon numaram [05079820263](phone)
+    - Kullandığım mail adresim [turkdogan.barlas@koc.com](mail) ve telefon numaram [05458980848](phone)
+    - Kullandığım mail adresim [emel.akan@dusenkalkar.com.tr](mail) ve telefon numaram [05028567654](phone)
+    - Kullandığım mail adresim [ebru12@mynet.com](mail) ve telefon numaram [05554297965](phone)
+    - Evet [ugursarp1798@gmail.com](mail), [05056714215](phone)
+    - Email adresim [ruya.kahveci@gmail.com](mail), telefon numaram [05302615213](phone)
+    - telefon numaram [05027783148](phone), mail adresim [atan.irem@mertoglu.info](mail)
+    - [ugursarp1798@gmail.com](mail), [05056714215](phone)
+    - [05056714215](phone), [ugursarp1798@gmail.com](mail)
+    - Tabi ki [ruya.kahveci@gmail.com](mail), [05302615213](phone)
+    - [tunaboylu.efe@turk.net](mail), [05399356869](phone)
+    - [tunaboylu.efe@turk.net](mail), [05027783187](phone)
+- intent: contact_confirm
+  examples: |
+    - Evet
+    - Doğru
+    - evet
+    - Kesinlikle
+    - Yüzde yüz doğru
+    - yüzde yüz
+    - Kuşkusuz
+    - Mütabıkım
+    - Bilgiler doğru
+    - Aynen
+    - Hı hı
+    - Bilmukabele
+    - Pek tabi
+    - Tabi
+    - yes
+    - Katılıyorum
+    - Doğrudur
+    - Gayet tabi
+    - Şüphesiz
+    - Muhakkak
+    - he valla
+    - bittabi
+    - öyle
+    - Tamam
+    - Onaylıyorum
+    - yep
+    - Evet bilgiler doğru
+    - Evet bunlar benim bilgilerim
+    - Doğru algılamışsın
+    - Kesinlikle bunlar benim bilgilerim
+    - Bilgilerimin doğruluğunu onaylıyorum
+    - Yüzde yüz bunlar benim bilgilerim
+    - bilgilerimi doğru bir şekile almışsınız
+    - Bilgilerimin bunlar olduğunu onaylıyorum
+    - Hiçbir şüpheye yer bırakmadan
+    - Kesinliklikle haklısınız
+    - Haklısınız
+    - Bunlar benim bilgierim
+    - doğru
+    - evet doğru
+    - doğrudur
+- intent: contact_deny
+  examples: |
+    - No
+    - Nope
+    - Yanlış
+    - Hayır
+    - Maalesef
+    - Hatalı
+    - Maalesef hatalı
+    - Ne yazık ki yanlış
+    - Doğru değil
+    - Bu bilgiler yanlış
+    - Bu bilgiler hatalı
+    - Özür dilerim
+    - Kesinlikle değil
+    - Ne yazık ki
+    - Yok
+    - Onaylamıyorum
+    - Hiçbir şekilde
+    - Hiçbir şekilde doğru değil
+    - Malesef hatalı
+    - Öyle değil
+    - Bu bilgiler benim bilgilerim değil
+    - Hatalı bilgier
+    - Ne yazık ki bilgilerim hatalı
+    - Maalesef bu bilgiler benim bilgilerim değil
+    - Üzülerek söylüyorum ki bunlar hatalı
+    - Bunlar hatalı bilgiler
+    - Bunlar yanlış bilgiler
+    - Hayır, bu bilgiler benim verdiğim bilgiler değil
+    - Hayır, bunlar benim bilgilerim değil
+    - Bunlar benim iletişim adresi bilgilerim değil
+    - Değil
+    - Hatalı bilgiler
+    - Maalesef yanlış
+    - Maalesef bilgilerimi yanlış almışsınız
+    - Yanlışlık var
+    - Vermiş olduğum bilglier bunlar değil
+- intent: answer
+  examples: |
+    - Bu fırsatı heyecan verici bir ortama katkıda bulunmanın bir yolu olarak görüyorum
+    - Çalışma ortamına güzelce uyum sağlayacağım ve takıma harika bir katkı olacağımı düşünüyorum
+    - Şirket web sitenizin buradaki kültürün önemli bir parçası olduğunu söylediği, işbirlikçi, ekip odaklı bir ortamın parçası olmayı seviyorum.
+    - En güçlü yönlerimden birisi ayaklarımın üzerinde durabilmem ve çok fazla baskı altında çalışabilmem.
+    - Detaylara çok fazla önem veriyorum.
+    - Bu çalışanı, yazma kalitesi ve son teslim tarihlerine alışkın olduğunu bildiğimiz bir günlük gazetedeki deneyimi nedeniyle işe aldık. Kalitesi harikaydı, ancak sürekli olarak ona güvenemediğimiz için projeleri değiştirmek zorunda kaldık ve Ben ona hitap ettiğimde önce bana kızdı, sonra ağlamaya başladı. Eleştiriyi kişisel olarak aldığını görebiliyordum, bu yüzden geri adım attım ve genel olarak kaçırılan teslim tarihlerinin organizasyonun performansını nasıl etkilediğini, çalışmalarının kalitesinin harika olmasına rağmen, tutarlılık eksikliğinin bunu gölgede bıraktığını açıkladım.
+    - Ekibimi net bir şekilde yapılandırarak, tüm ekip üyelerinin güçlü yanlarını bularak ve görevleri devrederek projeleri başarıya ulaştırabildik. Birçok proje farklı departmanlarla işbirliği içindeydi, bu nedenle ekip üyeleri değişecekti.
+    - Bir müşterinin ihtiyacını en iyi şekilde nasıl karşılayacağımız konusunda patronumla anlaşamadık. Otoritesini sorgulamak yerine, endişelerimi ona tek tek anlattım.
+    - Bir satış şubesinde ilk müdür yardımcısı olduğumda, şubenin günlük operasyonlarından tüm büyük satış çağrılarını yapmaya kadar her şeyi kendim üstlenmeye çalıştım. En iyi yöneticilerin, işin verimli bir şekilde yapılması için nasıl etkin bir şekilde yetkilendirileceğini bildiğini çabucak öğrendim. O zamandan beri, yönetim becerilerim için sayısız ödül kazandım ve bunların çoğunun etkili bir şekilde yetki verme yeteneğimle ilgili olduğuna inanıyorum.
+    - Bir yönetici olarak, ne zaman şaşırsam, bunu bir başarısızlık olarak görürüm. Ekibimde ve onların çalışmalarında neler olup bittiğini öğrenmeye çalışıyorum.
+    - Daha fazla sorumluluk almaya hazır olduğumu hissediyorum. Şu anki rolümde yapabildiğim kadar ilerlediğime inanıyorum. Beni motive edecek bir ortam değişikliğine ihtiyacım var.
+    - Şu anda işimle ilgili en sevmediğim şey, şirkette ilerlemek ve terfi etmek için sınırlı fırsatlar. Harika bir organizasyon ve burada çok şey öğrendim, ancak o kadar küçük bir şirket ki, biri emekli olmadıkça veya ayrılmadıkça yükselmenin yollarını bulmak zor.
+    - Yazılı iletişim becerilerimi kullanma fırsatı bulabileceğim bir pozisyon arıyorum. Şirketinizde pazarlama asistanı olarak, başarılı bir hibe yazarı olarak yıllara dayanan deneyimimi uygulayabilecek ve üzerinde çalışmaktan en çok keyif aldığım materyalleri yazabilecektim.
+    - Ekip üyelerinin güçlü bir dostluk duygusuna ve iyi bir iş ahlakına sahip olduğu bir ortamda çalışmaktan keyif alıyorum. İşleri halletmeyi seven, yetkin, kibar, eğlenceli insanlarla çalışmayı seviyorum.
+    - Çalışma tarzım son derece esnektir; bu kadar çok farklı projede çalışmak uyum sağlamamı gerektiriyor. Genel olarak, en iyi sonuçları elde etmek için mümkün olduğunca hızlı ve verimli çalışarak her seferinde bir proje üzerinde çalışmaya çalışıyorum.
+    - Yönetim tarzımı, yönettiğim insanların ihtiyaçlarını karşılayacak şekilde ayarlarım.
+    - İş arkadaşlarım beni baskı altında iyi çalışan organize, düşünceli biri olarak tanımlar. İdari işler yapmaktan hoşlandığım şeylerin çoğu, iyi organize edilmiş bir ortam yaratmak ve iş arkadaşlarımın ofis hayatının mümkün olduğunca sorunsuz yürümesi için ihtiyaçlarını tahmin etmektir.
+    - Geçenlerde bir son dakika projesine atandım. Panik yapmak yerine birkaç dakikamı bir program taslağı ve oyun planımın haritasını çıkarmak için ayırdım. Sonra işe koyuldum. Döngüde kalabilmeleri için ilerlememi yöneticime ilettiğimden emin oldum. Herhangi bir sorun ortaya çıkarsa, sorunları giderebilmemiz ve ilerleme kaydetmeye devam edebilmemiz için bunları döngüye ekledim. Projeyi zamanında tamamlayabildim ve müşteri çok heyecanlandı.
+    - Sorduğunuz için teşekkürler! Piyano çalmayı seviyorum. Aslında Classicools adında bir klasik müzik grubundayım ve şehrin her yerinde çeşitli mekanlarda performans sergiliyoruz. Her cumartesi benim evimde buluşup pratik yaparız. Ama işten sonra şarkı pratiği yapmak veya sıkılırsam yeni müzik yazmak için çok zaman harcıyorum.
+    - İşe başlar başlamaz, tamamlamam gereken ödevleri kaydederim ve teslim tarihlerine göre en yüksekten en düşüğe öncelik sırasına göre sıralarım. Bu, iş akışımı yönetmeme yardımcı oluyor ve o gün için yapmam gerekenleri takip etmemi sağlıyor.
+    - Bu cevabın muhtemelen bir mühendisten gelmesi şaşırtıcı değil, ancak kodla deney yapmayı seviyorum. Örneğin, World of Warcraft oynamaya başladığımda arayüzden gerçekten nefret ettim, bu yüzden kendiminkini yazmaya çalışmak istedim. Kendime yeni bir kodlama dili olan Lua'yı öğretmek ve bu dili destekleyen toplulukları ve aynı oyunu modlayan diğer insanların topluluklarını aramak zorunda kaldım.
+    - Gerçekten sonuçlara göre hareket ediyorum. Gerçekleştirmek için somut bir hedefim ve bunu başarmak için güçlü bir strateji bulmak için yeterli zamanım olduğunda hoşuma gidiyor. Son işimde, yıllık hedeflerimiz çok agresifti, ancak yöneticim ve ekibimin geri kalanıyla, yıl sonu rakamlarına ulaşmak için her ay bir strateji belirlemek için çalıştım. Bunu başarmak gerçek bir heyecandı.
+    - İş arkadaşlarımın bir ekip olarak birlikte çalıştığı dinamik bir çalışma ortamını seviyorum. Projelerde onlarla buluşabilme ve işbirliği yapabilme yeteneği ile yöneticimden görevler ve projeler üzerinde net bir talimat almayı seviyorum. Ancak, projedeki rolüm netleştiğinde, bağımsız çalışabilmeyi ve ardından çalışmamı takım arkadaşlarımla masaya yatırmayı seviyorum.
+    - Beş yıl içinde hedefim, pozisyonumla ilgili iki sertifikayı başarıyla almak. Bu röportajdan önce web sitenizi incelemek için biraz zaman ayırdım ve çalışanlarınıza kariyerlerini ilerletmek için sertifika almayı da içeren eğitimde ilerleme fırsatları sunduğunuzu fark ettim. Şirketinizin çalışanlarına sağladığı kaynakları kullanarak, önümüzdeki birkaç yıl içinde kariyer hedeflerimin peşinden gidebileceğime ve nihayetinde kuruluşunuzda bir yönetim pozisyonuna geçebileceğime gerçekten inanıyorum.
+    - İlgili dersleri alarak ve çeşitli mesleki derneklerle olan ilişkilerimi sürdürerek ek beceriler kazanmayı planlıyorum. Şirketinizin çalışanlar için kurum içi eğitim sağladığını fark ettim ve kesinlikle ilgili dersleri almakla ilgileneceğim.
+    - Hayalimdeki iş, her gün insanlar üzerinde olumlu bir etki yapmamı sağlardı. Her gün binlerce insanın kullandığı, zaman kazandıran ve hayatı zenginleştiren ürünler yapan sizinki gibi bir şirkette çalışmayı çok isterim. Ürünleri daha verimli ve etkili hale getirmenin yenilikçi yollarını bulan bir ekibin parçası olmayı çok isterim.
+    - Etkili organize etme konusundaki doğal yeteneğim beni benzersiz kılıyor. İdari asistan olarak önceki görevimde, ofis malzemeleri dolabını kategoriye göre yeniden düzenlemek için bir plan buldum. Öğeleri bulmak daha kolay olduğu için, daha az sipariş verdik ve her yıl ofis malzemelerinde %30 tasarruf sağladık.
+    - Bir önceki ofis müdürü pozisyonumda, şirketin kimsenin kullanmadığı ofis malzemelerine yılda binlerce dolar harcadığını keşfettim. Kendi zamanımda, önceki siparişleri gözden geçirdim ve hangi ürünlerin en çok ve en az kullanıldığını belirledim ve ardından satıcıyla en çok kullanılan malzemelerimizi indirimli olarak kapsayan daha uygun bir sözleşme üzerinde anlaştım.
+    - 30 gün içerisinde en çok çalışacağım insanları tanımayı ve onların yanında rahat olmayı planlıyorum. 60 gün içinde sektör, şirket ve rekabet ortamı hakkında sağlam bir anlayışa sahip olmayı planlıyorum, böylece şirketle ilgili herhangi bir konuşmada kendimi tutabilirim. 90 gün içinde benim için belirlenen hedeflere ulaşmayı planlıyorum.
+    - Maaş aralığım esnektir. Elbette, on yıllık deneyimim ve ödüllü satış rekorum için adil bir şekilde tazmin edilmek isterim. Ancak, pozisyonun ayrıntılarını tartıştıktan sonra belirli sayıları tartışmaya açığım.
+    - Açıkçası, bu şirket sektörde yenilikçi ve lider olarak büyük bir üne sahiptir. Pek çok şey yolunda gidiyor, bu pozisyonla bu kadar ilgilenmemin bir nedeni de bu. Bu harika bir şirket, ancak harika olan her şey gibi, her zaman iyileştirmeye yer vardır. Söyleyebileceğim kadarıyla, işletmenin lider üretimi, olabileceği kadar proaktif değil. Şu anda, ağızdan ağza ve diğer pasif potansiyel müşteri üretimine çok fazla güveniliyor. Bu yöntemlerde yanlış bir şey yoktur, ancak şirket, olası satış yaratma konusunda biraz daha inisiyatifle daha iyi hizmet verebilir. Bu kesin politikaları tasarlama ve uygulama deneyimim var.
+    - Doğru fırsat için kesinlikle taşınmaya hazırım. Bu pozisyonun ve şirketin bu fırsat olduğuna inanıyorum.
+    - Köpek olurdum çünkü başkalarının yanında olmayı seviyorum. Bir köpek gibi, gruplarla etkileşime girdiğimde en mutlu oluyorum ve çevremdekileri desteklemekten zevk alıyorum.
+    - İş ilanınızı internet üzerinden buldum.
+    - Her duruma analitik bir bakış açısıyla bakmaya çalışıyorum ve duygularımın eylemlerimi belirlemesine izin vermiyorum. Geçmişte profesyonelliği tartışılan ve işin gereklerini yerine getirmeyen çalışanlarım oldu. Bu durumlarda, en iyi politikanın sorunlar hakkında dürüst olmak ve iyileştirme için net stratejiler sunmak olduğunu buldum.
+    - 28 gün, çünkü salyangoz her gün 1 metre daha yükseğe çıkacak. 27. günde 27 metre yüksekliğe gelecek ve 28. günde 3 metre daha tırmanarak kuyudan çıkmış olacak.
+    - Kağıt üzerinde fazla kalifiye olduğum görünse de, daha iyi bir terimin tam olarak kalifiye olduğumu hissediyorum. Şu anda çok fazla seyahat etmem gerekmeyecek ve kaliteli bir iş-yaşam dengesi kurabileceğim bir pozisyon arıyorum. Yeni değer programları ve müşteri ödüllendirme sistemleri uygulayarak şirketinizin mevcut müşteri tutma sorununu çözebilirim. Bu, kanıtlanmış sistemlerle minimum maliyetle yapılabilir ve aylık bazda gelir artışına neden olur. Bu, yalnızca deneyim sahibi olduğum bir alan değil, aynı zamanda müşteri kazanımı ve elde tutma benim için bir tutku olduğu için başarılı olduğum bir alandır.
+    - Şirketinizin sürekli gelişme taahhüdüne gerçekten saygı duyuyorum. Büyüme ve inovasyonun her sektörde, özellikle de teknoloji alanında kilit önemde olduğunu düşünüyorum ve bu organizasyon sürekli olarak önceden belirlenmiş sınırları zorluyor. Yalnızca bu geçen yıl içinde, farklı pazarlara girerken oldukça fazla risk aldınız ve bunların hepsi karşılığını verdi. Bir mühendis olarak, sorunlara yeni ve yaratıcı yollarla yaklaşmaya çalışıyorum, bu yüzden bu takım için bir değer olacağımı düşünüyorum.
+    - Wisconsin-Madison Üniversitesi'nde geçirdiğim süre boyunca lisans eğitimimi zooloji bölümünde araştırma teknisyeni olarak geçirdim. Bu süre zarfında, araştırma çalışmalarımın çoğu, primat davranışlarının incelenmesini içeriyordu. Programımdan mezun olduktan sonra, University of Wisconsin - Milwaukee'de bir araştırma rolü buldum. Ayrıca zooloji laboratuvarlarında çalıştım, bu sefer terapi hayvanlarının insan sağlığını ve refahını nasıl etkilediğine odaklandım. Bu çalışmalar sırasında verilerin kayıt altına alınmasından ve raporların yürütülmesinden sorumluydum.
+    - Sahip olduğum en ödüllendirici ekip çalışması deneyimi, üniversitenin son yılındaydı. Notumuzun oldukça büyük bir bölümünü oluşturan 4 kişilik ekipler halinde teslim edilecek bir projemiz vardı. Herkesin kendi ağırlığından fazlasını çektiğine inanıyorum çünkü çok fazla şey tehlikedeydi. Herkesin kazanacak veya kaybedecek önemli bir şeyi olduğunda ekip çalışması çok faydalıdır.
+    - Aslında her iki durumda da eşit derecede rahatım. Son işimde hem bağımsız hem de takım projeleri yapma fırsatım oldu ve çeşitlilikten gerçekten keyif aldım. En sevdiğim çalışma senaryosu, ekip olarak bir projeye başladığımızda, atanmış görevlerimiz üzerinde bağımsız olarak çalışmaya başlamadan önce yaklaşımlarımızı beyin fırtınası yaparak ve son teslim tarihlerini ve bireysel sorumluluklarımızı belirlediğimiz zamandır. Ancak bağımsız olarak çalışırken bile, tavsiye ve destek için bir ekibe ulaşabilmenin çok değerli olduğunu düşünüyorum. Ayrıca, yardıma ihtiyaç duyduklarında diğer proje ekibi üyelerine yardım etmeye hazır olduğumdan da emin oluyorum.
+    - Herkes gibi ben de yöneticilerimden işimi nasıl geliştirebileceğimi görmeme yardımcı olan girdiler aldım. Bir keresinde üzerinde çok zaman harcadığım bir projeyi revize etmem istendi, ancak eleştiriyi dikkatlice dinledikten sonra, bitmiş ürünü güçlendirecek değişiklikleri nasıl yapabileceğimi gördüm. Özellikle yorumların kariyerimde gelişmeme ve becerilerimi güçlendirmeme yardımcı olabileceği durumlarda, farklı görüş ve deneyimlere sahip insanlardan bir şeyler öğrenmeye her zaman hevesliyim.
+    - Dürüst olmak gerekirse, geçmişe bakıldığında, muhtemelen son işimde daha iyi yapabileceğim bir şey vardı, ama gerçekten önemli bir sonucu olan hiçbir şey aklıma gelmiyor. Son ekonomik gerilemenin bir sonucu olarak birkaç aksilik yaşadık, ama sonuçta bu bize her şeye daha iyi hazırlanmamızı öğretti.
+    - İlk olarak, uygun protokol hakkında İK'ya danışırdım. İkincisi, daha sonra iyi yaptıkları ve kötü yaptıkları şeyleri belirterek işten çıkarılmalarını çalışana bildiririm. Son olarak, herhangi bir karışıklık veya sorunun ele alınmasını sağlamak için herhangi bir soru sormalarına izin veririm.
+    - Lider olmaktan zevk alıyorum ve doğal olarak en iyi olduğum şeyin bu olduğunu düşünüyorum. Ancak benden daha tecrübeli olanları da öğrenmek ve takip etmek için fırsatlar ararım. Yöneticilerimden ve daha kıdemli ekip üyelerimden öğrenmek için sorular sormayı ve başkalarıyla işbirliği yapma şansına sahip olmayı seviyorum. Bunun öğrenmenin harika bir yolu olduğunu buldum. Bu yüzden liderlik etmekten keyif alıyorum ama aynı zamanda güçlü bir ekiple çalışmayı ve takip edeceğim harika danışmanlara sahip olmayı da seviyorum. Bu pozisyona ilgi duymamın bir nedeni de buydu. İş tanımında birkaç farklı departman ve ekip lideriyle işbirliği yapacağımı ve kendi küçük bir ekibime liderlik edeceğimi gördüm.
+    - Büyükannemin dışa dönüklüğüne, sayılarla olan gücüne ve inatçı olmaktan korkmamasına her zaman hayran olmuşumdur. Ama ona daha çok onun gibi olabilmeyi dilediğimi söylediğimde, bana içe dönüklüğümün, dil sevgimin ve başkalarının duygularıyla empati kurabilme yeteneğimin beni gerçekten ilgili biri yaptığını hatırlatıyor.
+    - En son okuduğum kitap Walt Whitman'ın Leaves of Grass kitabıydı. Her nasılsa, okulda o klasiği okumayı özledim ve bir arkadaşım Whitman'dan hoşlanacağımı düşündü. Birkaç sayfadan sonra, tek bir pasajda keskin yorumların yanı sıra nazik incelikleri nasıl yapabildiğine gerçekten hayran kaldım.
+    - Sahip olduğum en iyi iş, son işimdi. Staj gerçekten bana endüstrinin nasıl çalıştığına dair içeriden bilgi verdi ve ben de becerilerimi geliştirebildim. Altında çalıştığım harika bir profesyonel grubum vardı. Orada öğrendiklerimi uzun vadeli bir pozisyonda kullanmaktan heyecan duyuyorum.
+    - Ben son derece organize bir insanım, bu yüzden işimi işte yapabilme eğilimindeyim. Ancak, ihtiyaç duyulursa, eve iş götürmeye karşı olmazdım. Boş zamanıma değer verdiğim için bunu alışkanlık haline getirmemeye çalışıyorum. Yine de yaptığımız işin önemli olduğunun ve bazen yapılması gerekeni yapmanız gerektiğinin farkındayım.
+    - Son projem, çalıştığım küçük tişört şirketindeki tedarik seçeneklerimizi düzene sokmanın yollarını bulmak için bir çalışma grubunu bir araya getirmekti. Satın aldığımız hacim için en iyi adil ticaret çözümlerini bulmak için prodüksiyon sanatçıları ve muhasebecilerle birlikte çalıştım. Hem o zamanki durumumuz için en iyi seçimi hem de satışlarımız arttıkça tedarik zincirimizi ölçeklendirme planını elde ettik ve bu da bize başlangıçta planladığımızdan biraz daha fazlasını araştırmamızı sağladı.
+    - Son işimde Jira'yı kullandım.
+    - Ben her hatadan öğrenmeye ve gelişmeye çalışan bir insanım. Yıllar önce üzerinde çalıştığım bir ekip satış yapamadı ve bize bunun kısmen etkisiz görsellerimizle yapılması gerektiği söylendi. Sonraki altı ay boyunca, boş zamanımın çoğunu, çekici görsel sunumlar oluşturmak için çeşitli yazılım programlarını nasıl kullanacağımı öğrenmekle geçirdim. O zamandan beri toplantılarda ve satış konuşmalarında görselliğim için sürekli övüldüm.
+    - Göreve bağlı. Beyin fırtınası söz konusu olduğunda, ekipler birden fazla girdiyle harika fikirler üretir ve ekipler insanların güçlü yönlerini vurgulayabilir. Ancak bir birey olarak görevlerimi yerine getirmekten kesinlikle zevk alıyorum, çünkü birçok yönden ekibin tam olarak başarılı olması için tek başına çalışma becerisi gerekiyor.
+    - Mesleki gelişim kursları alıyorum, mesleki etkinliklere katılıyorum ve son olarak sosyal medyadaki düşünce liderlerini takip ediyorum.
+    - Veri Modeli, Veri Tutarlılığı, Veri Güvenliği, Veri Koruma, Çoklu Erişim ve Entegrasyon, Verimlilik, Kullanılabilirlik ve Uygulama ve Hizmet Maliyetlerini dikkate alıyorum.
+    - Bir super class, birçok alt sınıfın oluşturulabileceği sınıftır. Alt sınıflar, bir super class'ın özelliklerini devralır. Üst sınıf, ana sınıf veya temel sınıf olarak da bilinir.
+    - Ana hedefi, zamanında ve bütçe dahilinde yüksek kaliteli yazılım üretmek için sistematik modeller ve güvenilir teknikler geliştirmektir ve bu endişeler teori ve ilkelerden günlük uygulamaya kadar uzanır.
+    - SDLC veya Yazılım Geliştirme Yaşam Döngüsü, en kısa sürede en yüksek kalitede ve en düşük maliyetle yazılım üreten bir süreçtir. SDLC, bir yazılım sisteminin nasıl geliştirileceği, değiştirileceği, bakımının yapılacağı ve değiştirileceğine ilişkin ayrıntılı bir plan içerir.
+    - Birlikte çalıştığım en iyi yazılım geliştiricileri, zarif tasarıma karşı hızlı bir hack kullanarak gerçekten denge sağlıyor. Milyonlarca kullanıcıya ölçeklenecek şekilde bir kerelik veri yüklemesi için kodun fazla mimarisini yapmak zaman kaybı olabilir. Tersine, ölçeklenmesi gereken berbat bir çözümü bir araya getirmek tamamen farklı bir sorundur. Harika yazılım geliştiricileri her ikisini de yönetebilir. Ancak gerçekten yetenekli olanlar tüm bunları yönetebilir ve yine de daha az yetenekli geliştiricilerle çalışmak için sabır ve iletişim becerilerine sahip olabilir. Her şeyi kendiniz kodlayamazsınız ve egonuz ve/veya solduran eleştiriniz ekibin geri kalanını uzaklaştırırsa, bu bir felaket reçetesidir.
+    - Programlama dilleri, bilgisayarların takip etmesi için talimatlar yazmak için kullandığımız araçlardır. Bilgisayarlar ikili olarak 'düşünür' - 1'ler ve 0'lardan oluşan diziler. Programlama dilleri, 1'leri ve 0'ları insanların anlayabileceği ve yazabileceği bir şeye çevirmemize izin verir. Bir programlama dili, insanların düşüncelerimizi bilgisayarların anlayabileceği talimatlara çevirmesine izin veren bir köprü görevi gören bir dizi sembolden oluşur.
+    - Entegre geliştirme ortamı, ortak geliştirici araçlarını tek bir grafik kullanıcı arabiriminde birleştiren uygulamalar oluşturmaya yönelik bir yazılımdır.
+    - Duyarlı tasarımla oluşturulan web siteleri, görüntüleri ölçekleyen, metni saran ve düzeni ayarlayan kesme noktalarını hedeflemek için medya sorgularını kullanır; tasarım. Akışkan tasarımla oluşturulan web siteleri, genişlikler için göreli göstergeler olarak yüzdeleri kullanır. Sabit tasarım. Sabit tasarım kullanılarak oluşturulan web siteleri, sabit piksel genişliklerine dayanır. Sabit boyutlara sahip bir tasarım bazen çalışmaya başlamanın en hızlı yolu olsa da, birden fazla cihazda daha az kullanıcı dostu bir deneyim sağlar.
+    - Yığın, üç temel işlemi olan doğrusal bir veri yapısıdır; push, pop. Bazı yığın uygulamaları, bir yığındaki bir öğeyi değiştirmeden görmenizi sağlayan bir işlev olan peek'e de izin verir. Yığınlar, son giren ilk çıkar yapısı kullanır - bu nedenle yığına eklenen son öğe, kaldırılabilen ilk öğedir. Kuyruklar, ilk giren ilk çıkar yapısıyla çalışan benzer bir veri yapısıdır. Yığınlar genellikle bir dizi veya bağlantılı bir liste ile uygulanır. Bir röportajda bir yığın uygulamanız ve farklı işlemler gerçekleştirmeniz istenebilir.
+    - JIRA, Çevik SDLC ilkesiyle çalışan çeşitli kuruluşlar tarafından en çok kullanılan proje yönetim yazılımıdır. Ekipler Kanban panoları, özel saldırı panoları oluşturabilir ve gerçek zamanlı raporlama olanaklarını kullanabilir
+    - Soyut bir sınıf, programcı tarafından yalnızca kısmen uygulanan bir sınıftır. Bir veya daha fazla soyut yöntem içerebilir. Soyut bir yöntem, programcıya yöntemin bir alt sınıfta uygulanması gerektiğini söylemeye yarayan basit bir işlev tanımıdır. Bir arabirim, soyut bir sınıfa benzer; gerçekten de arabirimler, sınıflar ve soyut sınıflarla aynı ad alanını işgal eder. Bu nedenle bir sınıfla aynı isimde bir interface tanımlayamazsınız. Bir arabirim tamamen soyut bir sınıftır; yöntemlerinin hiçbiri uygulanmaz ve ondan bir sınıf alt sınıflaması yerine, bu arabirimi uyguladığı söylenir.
+    - Quicksort bir logaritmik zaman algoritmasıdır, Big O notasyonu O(log n)'dur.
+    - Proje yönetimi, şirketinizin en önemli görevlerini ön planda tutarken bütçenize ve son teslim tarihine bağlı kalmanın anahtarıdır.
+    - Yığın, nesnelerin yalnızca bir ucundan, yani yığının tepesinden eklenip çıkarılabilmesi için belirli bir sırada düzenlenmiş nesnelerin sıralı bir koleksiyonudur. Bir dizi ise, programın karmaşıklığını azaltmak için çok sayıda veri değerini depolamak için kullanılan rastgele erişimli bir veri yapısıdır. Bir dizide, nesneler verimli bellek yönetimi için birbiri ardına doğrusal olarak depolanır.
+    - Yöneticiler ve iş arkadaşlarımla sık sık çalıştım ve bunu nadiren zor buluyorum. Bazen bir ekip ortamında yeni bir yöneticiye veya lidere uyum sağlamak biraz zaman alabilir. Ancak beklentileri birleştirmek ve netleştirmek için zaman ayırdığımız sürece her şeyin yoluna gireceğini düşünüyorum. Her ilişkide olduğu gibi bir uyum süreci bekliyorum.
+    - İşlevsel gereksinimler, geliştirilmiş bir yazılım ürününün gerçekleştirmesi beklenen özelliklerdir. Örneğin, bir e-Ticaret web sitesine ödeme seçeneği eklemek işlevsel bir gereklilik olacaktır. İşlevsel olmayan gereksinimler, Kullanıcı Arayüzü görünümü ve hissi, Güvenlik, Performans, Birlikte Çalışabilirlik, Güvenilirlik vb. gibi uygulamanın kullanılabilirliğini ölçer.
+    - Web geliştirmenin geleceği büyük ölçüde yapay zekaya bağlı olacaktır. Aslında, mevcut yazılım ve uygulamalarda zaten gördüğümüz bir şey. Dijital dünyanın halihazırda kullandığı birkaç uygulama var; sesli komutlar, sanal gerçeklik, otomatik kodlama ve daha fazlası. Web geliştirme, gittikçe daha gelişmiş araçlar ve programlama dilleri keşfettikçe sürekli gelişiyor. Bu değişikliklerin çoğunun yalnızca kullanıcının rahatlığını ve işlevselliğini karşılamasını bekleyebiliriz.
+    - Evet bu tür projelere katkıda bulunuyorum, son olarak bir kripto projesi ile çalışırken büyük bir bug buldum.
+    - Proje hedeflerini ve çıktılarını belirleyin. Proje risklerini, kısıtlamalarını ve önceliklerini ortaya çıkarın. Proje Kapsamını Oluşturun. Proje teklifini gönderin. Bir proje yol haritası oluşturun. Ayrıntılı bir proje planı oluşturun. Görevleri yönetin ve proje ilerlemesini izleyin. Proje planını gözden geçirin ve ayarlayın. Proje ilerlemesini iletin. HCommunicate proje ilerleme.
+    - Kara Kutu Testi, test edilen öğenin iç yapısının/tasarımının/uygulanmasının test eden tarafından bilinmediği bir yazılım test yöntemidir. Beyaz Kutu Testi, test edilen öğenin iç yapısının/tasarımının/uygulanmasının testçi tarafından bilindiği bir yazılım test yöntemidir.
+    - Evet, birçok kişisel projem var. Github linkimde bulabilirsiniz. Son projem israfın çöpe gitmesini önlemekti. Çöpe atmak yerine, ihtiyacımız olmayan şeyleri onlara ihtiyacı olan insanlara verebiliriz.
+    - Müşterinin isteklerini yerine getirirse başarılı diyebilirim.
+    - Yorumlayıcı, bir programlama dilini anlaşılır bir dile çeviren bir programdır. Derleyici, girdi, yani Yüksek Düzeyli Dil alan ve düşük seviyeli bir dil, yani makine veya montaj dili çıktısı üreten bir çevirmendir.
+    - Makine öğrenimi ile ilgileniyorum, bu yüzden bu teknolojiyle çalıştığınız projeler katkıda bulunmak istediğim kısım.
+    - Ailenizdeki herkesin bifteği sevdiğini hayal edin. 200'den fazla biftek saklayan büyük bir dondurucunuz var ve güç kaynağı kapanıyor. Bifteklerin hepsi şimdi bozuldu. Bu nedenle, bir üçüncü taraf deposu, bifteklerinizi bir ücret karşılığında saklamayı ve istediğiniz zaman size teslim etmeyi teklif ederdi. Dönem. Yemeğinizin bozulmayacağını garanti ederler, bozulursa değiştirirler. Biftek saklama riski veya bozulma korkusu olmayan 7 gün 24 saat hizmettir.
+    - Yapıcılar, nesnenin durumunu başlatmak için kullanılır. Yöntemler gibi, bir yapıcı da Nesne oluşturma sırasında yürütülen ifadeler koleksiyonunu içerir. Yöntem, belirli bir görevi yerine getiren ve sonucu arayana döndüren bir ifadeler topluluğudur. Bir yöntem, hiçbir şey döndürmeden belirli bir görevi gerçekleştirebilir.
+    - Teknik bilgileri daha iyi açıklamak için mizah ve tevazu kullanırdım, anlatacağım konuyu hikayeleştirerek daha anlaşılır şekle sokardım.
+    - Aslında uygulamamızın 3. taraf resim görüntüleyici alt bileşenindeydi. Uygulamamızın 2-3 kullanıcısının sık sık resim görüntüleyici bileşeninin bir istisna atmasına ve korkunç bir şekilde ölmesine neden olduğunu gördük. Ancak, iş gününün çoğunda uygulamayı aynı görev için kullanmasına rağmen sorunu hiç görmeyen düzinelerce başka kullanıcımız vardı. Bilgisayarı/yapılandırmayı ekarte etme sorunu yaşamayan başka bir kullanıcıyla bilgisayar değiştirmelerini sağladılar. - Sorun onları takip etti. Uygulamaya giriş yapmalarını ve sorunu hiç görmemiş bir kullanıcı olarak çalışmalarını sağladılar. - HATA onları takip etti. Kullanıcının hangi görüntüyü görüntülediğini bildirmesi ve bu görüntüyü arka arkaya binlerce kez görüntülemeyi tekrarlamak için bir test koşum takımı kurması. Sorun, koşum takımında kendini göstermedi. Bir geliştirici, kullanıcılarla oturup bütün gün onları izler. Hataları gördüler, ancak onlara neden olacak olağan dışı bir şey yaptıklarını fark etmediler.
+    - Test yazılımı, geliştirmeden daha karmaşıktır. Becerilerini artırmak ve bir programcı gibi eşit derecede önemli olmak için eşit fırsatlara sahipler. Kodlama becerisine sahip olmaya gerek yok; Çoğu testçi, herhangi bir programlama becerisine sahip değilse yazılımı test edebileceğini düşünüyor.
+    - İşlem, bir programın yürütülmekte olduğu anlamına gelirken, iş parçacığı bir işlemin bir bölümü anlamına gelir. Bir İşlem Hafif Değildir, oysa Konular Hafiftir. Bir İşlemin sonlandırılması daha fazla zaman alır ve iş parçacığının sonlandırılması daha az zaman alır.
+    - Çevik yazılım geliştirme, gereksinimlerin ve çözümlerin kendi kendini organize eden çapraz işlevli ekipler arasındaki işbirliği yoluyla geliştiği, yinelemeli geliştirmeye dayalı bir grup yazılım geliştirme metodolojisini ifade eder. Çevik yöntemler veya Çevik süreçler genellikle, sık denetim ve uyarlamayı teşvik eden disiplinli bir proje yönetimi sürecini, ekip çalışmasını, kendi kendine organize olmayı ve hesap verebilirliği teşvik eden bir liderlik felsefesini, yüksek kaliteli yazılımın hızlı bir şekilde teslim edilmesini sağlamayı amaçlayan bir dizi mühendislik en iyi uygulamasını teşvik eder, ve geliştirmeyi müşteri ihtiyaçları ve şirket hedefleri ile uyumlu hale getiren bir iş yaklaşımı.
+    - Zorunlu dillerde, bilgisayara belleğindeki bitleri, baytları ve sözcükleri nasıl ve hangi sırayla değiştireceğini söylersiniz. İşlevsel olanlarda, bilgisayara nesnelerin, eylemlerin vb. ne olduğunu söyleriz. Örneğin, 0'ın faktöriyelinin 1 olduğunu ve diğer tüm doğal sayıların faktöriyelinin o sayının ve ondan öncekinin faktöriyelinin çarpımı olduğunu söylüyoruz. n'nin faktöriyelini hesaplamak için bir bellek bölgesi ayırıp orada 1'i sakla, sonra o bellek bölgesindeki sayıyı 2'den n'ye kadar olan sayılarla çarpıp sonucu aynı yerde sakla ve sonunda, demiyoruz. bellek bölgesi faktöriyel içerecektir.
+    - Çoklu kalıtım, bir alt sınıfın birden fazla üst sınıftan türetilebildiği süreçtir. Avantajı, bir sınıfın birden fazla temel sınıfın işlevselliğini devralabilmesidir, ancak dezavantajı, iki temel sınıf aynı ada sahip bir yöntemi uyguladığında çok fazla karışıklığa yol açabilmesidir.
+    - Algoritma, bir sorunu çözmek veya bir görevi tamamlamak için bir dizi talimattır. Algoritmanın yaygın bir örneği, bir yemek veya yemek hazırlamak için özel talimatlardan oluşan bir tariftir. Her bilgisayarlı aygıt, işlevlerini donanım veya yazılım tabanlı rutinler biçiminde gerçekleştirmek için algoritmalar kullanır.
+    - Kariyerim boyunca birçok önemli projede çalıştım. Birine başlarken benim için gerçekten çok önemli olan, başlangıçta hedefler konusunda çok net olmak ve ardından kilometre taşları olan bir plan oluşturmak. Ayrıca projelerin en zor kısımlarını erkenden ele almayı seviyorum - bu şekilde önemli sorunlar olması durumunda, son teslim tarihinden önce tamamlamak için yine de oldukça fazla zamanım olacak. Ayrıca genellikle büyük görevleri daha küçük parçalara bölerim, böylece nereden başlayacağımı bilmek daha kolay olur.
+    - MVP'yi yerine getirdiğinde aslında bitmiş sayılabilir ama bence rahatladığımda bitti diyorum.
+    - Biçimlendirme; Boşluklar ve satır sonları nerede? Sekmeler mi yoksa boşluklar mı kullanıyorlar? Stil; Değişkenler/parametreler nihai olarak mı bildirildi? Yöntem değişkenleri, kullanıldıkları kodun yakınında mı yoksa yöntemin başında mı tanımlanıyor? Adlandırma; Alan/sabit/değişken/param/sınıf adları standartlara uygun mu? İsimler çok mu kısa? Test kapsamı; Bu kod için bir test var mı?
+    - Fidye yazılımı saldırıları, IoT saldırıları, Bulut saldırıları, Kimlik avı saldırıları, Blok zinciri ve kripto para birimi saldırıları, Yazılım güvenlik açıkları, Makine öğrenimi ve AI saldırıları, BYOD politikaları, İçeriden bilgi saldırıları. Her iş arkadaşımın bu saldırıları ve bunun olmasını nasıl önleyebileceklerini bilmesini sağlayacağım.
+    - Bir veri yapısı, verimli erişime ve değişikliğe izin verecek şekilde saklanan ve düzenlenen bir veri türü 'değerleri' topluluğudur. Bazı durumlarda bir veri yapısı, belirli bir veri türü için temel uygulama haline gelebilir. Linear, Tree, Hash.
+    - Bu amaçla görsel modelleme kullanılır. Lütfen unutmayın - resim bin kelimeye bedeldir. Bunu göz önünde bulundurun, basit bir ekran düzeni bir işlevin ayrıntılarını (bir kullanıcı ekleme, müşteri ekleme vb.) teknik bilgisi olmayan bir kişiye bile kolayca iletebilir. Benzer şekilde, bir sürecin ayrıntılarını iletmek için basit bir akış şeması oluşturabiliriz. Akış şemasını anlamak kolaydır. Bilgileri teknik olmayan bir kitleye iletmek için sunumları da kullanabilirsiniz.
+    - Benim için en büyük etkiyi yaratan iki dil Prolog ve OCaml. Hiçbir şeyde en iyi olduklarını düşünmüyorum ve öğrenilecek en iyiler de değiller. Ancak her birini öğrenmek, programlama hakkındaki düşüncemi tamamen değiştiren en iyi öğrenme deneyimiydi.
+    - 6 ay önce yazdığınız kodun sanki başkası tarafından yazılmış gibi hissedileceğini garanti edebilirim. Yani cevap; 'Tamamen rahat çünkü öyle olmak zorundasın.'
+    - Hataları düzeltmek, ilk etapta bir şeylerin neden yanlış olduğunu anlamak için problem çözme becerilerini kullanabilmek kadar önemlidir. Potansiyel bir bilgisayar mühendisinin, kod prova söz konusu olduğunda en önemli olarak gördüğü şeyi sormak, size hangi değerleri en yüksek tuttuklarını söyler.
+    - Linux hızlı, verimli ve hafif bir işletim sistemidir. Kaynak kodları ve komut dosyaları Linux'ta daha hızlı çalışır, bu yüzden programcılar için en iyi işletim sistemidir.
+    - Kodlamanın tadını çıkarın. Hatalardan öğrenmek. Kodlamanın sürekli öğrenme ve iyileştirme gerektiren bir şey olduğunu daima hatırlayın. Neyi ve nasıl uygulayacağınıza dair bir planınız olsun. kodunuzu alıyor?
+    - Birden fazla programlama diline aşinayım. Yolculuğa C ile başladı - Teorik kitaplar ve pratik yaparak öğrendim. Ardından, üstün, efsanevi C++, C ile aynı hikaye geliyor. Hepsi kitaplardan. Ama günün sonunda, hiçbiriyle rahat değildim, bu yüzden ikisini de atladım ve ön uç tasarım dillerini öğrenmeye gittim. HTML, CSS ve Javascript'in temellerini yaptım.
+    - Evet, gerçekten çok zevk alıyorum. Çünkü işini bitirdiğin sürece sorun yok, yani gerçek bir çalışma ortamında çalışabilirsin.
+    - İş arkadaşlarıma çok bağlı hissediyorum. Hepsi çok yardımsever ve beni tüm hayatım boyunca tanıyormuş gibi davranıyorlar.
+    - Güncel değişiklikleri yakalamak için elinizden gelenin en iyisini yapmaya çalışıyorsunuz, bu yüzden değişime açık olduğunuzu rahatlıkla söyleyebilirim.
+    - Çalışma ortamında fikirlerime değer verildiğini hissediyorum.
+    - Ne yazık ki hayır, bir şey hakkında konuştuğumda kimse ne düşündüğümü umursamıyor gibi görünüyor.
+    - Hepsi bize zamanında haber verirler.
+    - Hayır, sadece parayı önemsiyorlar. Para kazandığımız sürece takımın başarısı önemsizdir.
+    - Oldukça şeffafler. Şirkette bir şey olduğunda haberleri duymuyoruz.
+    - Hayır, ekibimde 6 aptalla çalışıyorum, bu yüzden her şeyi kendi başıma yapmak zorundayım.
+    - Ne yazık ki hayır, burada sadece para için çalışıyorum. İmkanım olduğunda ayrılacağım.
+    - Evet bu fırsatları tanıyorlar. 6 ayda ofis müdürü oldum. Burada çok kolay bir şekilde yükselebilirsiniz.
+    - Çalışmak için kendime bir dizüstü bilgisayar almam gerekiyordu. Sizce sağlıyorlar mı?
+    - 2 yıldır burada çalışıyorum ve hala ne yaptığımı bilmiyorum. Yani net olarak açıklayamıyorlar.
+    - Hayır, düşünmüyorum.
+    - Bir sayı vermem gerekirse 10000 üzerinden 10 veririm.
+    - Maalesef, hayır.
+    - Evet gün gibi ortada.
+    - Hayır. 2 yıldır burada çalışıyorum ve terfi alamasam da tüm zor işleri ben yapıyorum.
+    - Evet, emekli olana kadar burada çalışacağımı düşünüyorum. Burada çalışmayı seviyorum.
+    - Daha fazla para alsaydım daha çok memnun olurdum ama şu anda o kadar da memnun değilim.
+    - Harika insanlarla çalışıyorum. Bu yüzden meslektaşlarımla çalışmaktan gerçekten çok mutluyum.
+    - Hayır, ekibimden nefret ediyorum.
+    - Evet moral desteği veriyorlar.
+    - Kimse ne yaptığımı umursamıyor, bu yüzden bilgi almak çok zor.
+    - Aslında hayır, çünkü beceriksizim. Bir şey olduğunda ne yapmam gerektiğini bilmiyorum.
+    - Hayır bilgilendirmiyorlar.
+    - Evet, bana her zaman yardım ederler. Bilmediğim veya yapamadığım bir konuya takıldığımda bana yardımcı olmak için kendi işlerini bırakıyorlar.
+    - Para kazanıyorum bebeğim.
+    - Sadece parayı önemsiyorlar, fikirlerimizi değil.
+    - Hayır, işimden nefret ediyorum.
+    - Yapacak çok fazla işim var, bu yüzden yeni beceriler öğrenmek için zamanım yok.
+    - Yöneticinin oğluysanız evet. Ama benim görüşlerim hayır.
+    - Bizimle çok ilgileniyor. İhtiyaçlarımızı kendi ihtiyaçlarının önüne koyar.
+    - Günde 10 saat çalışıyorum. Ne düşünüyorsun?
+    - Evet, patronum için olumlu bir fark yaratıyor. Yaptığım iş için çok fazla kazanıyor.
+    - 3 yıldır burada çalışıyorum. Müşterinin sorunlarını çözmek için yeterli deneyime sahip olduğumu düşünüyorum.
+    - Evet, günlük işlerimi bitirirsem ailemi görmek için işten erken ayrılabilirim.
+    - Yaptığım işle ilgili bana her zaman geri bildirimde bulunur.
+    - Hayır yapmaz. O beni kıskanıyor.
+    - Çok çalışmak zorundayım, aileme ayıracak vaktim yok.
+    - Çalışmıyorum bu yüzden iş stresim yok.
+    - Hayır kurmuyor, beni saat fark etmeksizin arayıp işle ilgili bir sıkıntı olduğunu söylüyor.
+    - Evet, o çok adil.
+    - Yöneticinin oğluysanız, terfi etme şansınız var, yoksa hayır.
+    - Evet, her zaman bizim hakkımızda en iyisini düşünürler.
+    - Haftanın 7 günü.
+    - O kadar da değil, stajyer olduğum için ödeyebilecekleri en düşük tutarı ödüyorlar.
+    - Çok olası. hiç mutlu değilim.
+    - Hiçbir zaman böyle hissetmedim.
+    - Para.
+    - Şirkete çok fazla şey katabileceğimi düşünüyorum.
+    - 28. günün sonunda kuyudan çıkar.
+    - Çok fazla çalışarak başarılarıma ulaşmayı hedefliyorum.
+    - Şu anda istediğim üç beceri yok.
+    - Yapacağım her şeyi gün içerisinde belirleyerek düzenli bir şekilde günümü planlamış oluyorum.
+    - Hız, zeka ve son olarak umursamazlık
+    - Böyle olsa bile burada çalışmam için bir engel değil
+    - İşimi yaptığım sürece her şeyin yoluna gireceğini bildiğim için bu şekilde düşünerek stresimi azaltıyorum.
+    - İşim hakkında oldukça tutkuluyum
+    - Yönetim tarzım yönettiğim insanlara göre değiştiği için bir tarzım olduğunu söyleyemem.
+    - Arkadaşlarımla zaman geçirmeyi ve oyun oynamayı seviyorum.
+    - En az sevdiğim şey çalışmanın kendisi
+    - İnsanlarla olan ilişkim
+    - Rasa bot projesiydi o da türkçeye çevirince dibe batmış şekilde şu anda
+    - Hayır, bu iş için gereğinden fazla kalifiye değilim
+    - Yönetim tarzım insanlara göre değişir
+    - Detaylara dikkat etmem
+    - Diğer herkesten farklıyım
+    - Rahat bir çalışma ortamını tercih ediyorum.
+    - İş dışında arkadalşarımla vakit geçirmeyi seviyorum.
+    - Kesinlikle bu iş sayesinde hayatımı daha geliştireceğim
+    - Evden çalışmak büyük bir kolaylık olacak
+    - Beni en çok motive eden şey iş arkadaşlarım
+    - Bir önceki işimden ayrılma sebebim çok az ödeme alıyordum
+    - Kesinlikle bu şirkete birçok şey katabileceğimi düşünüyorum.
+    - işe ve alacağım paraya bağlı olarak değişir
+    - Aslında şirket hakkında çok fazla şey bilmiyorum
+    - Daha sıkı çalışarak son müşteriyi daha memnun edeblirdim.
+    - Biraz rahat bırakıldığım taktirde yönetim biçimi çok fark etmez.
+    - Beni mevki ve para motive eder.
+- regex: mail
+  examples: |
+    - ^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w{2,3}$
+- regex: phone
+  examples: |
+    - \d{11}

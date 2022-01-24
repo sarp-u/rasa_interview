@@ -1,0 +1,18 @@
+version: "3.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_baybay
+
+- rule: If concat information is false ask again
+  steps:
+    - intent: contact_deny
+    - action: utter_iletisim_tekrar
+
+- rule: If concat information is true start interview
+  steps:
+    - intent: contact_confirm
+    - action: action_interview_questions

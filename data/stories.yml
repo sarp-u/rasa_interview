@@ -1,0 +1,303 @@
+version: "3.0"
+
+stories:
+
+- story: true_info_5_question
+  steps:
+  - intent: greet
+  - action: utter_merhaba
+  - intent: name_info
+    entities:
+    - name: ugur
+  - slot_was_set:
+    - name: ugur
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - phone: '05056714215'
+    - mail: ugursarp1798@gmail.com
+  - slot_was_set:
+    - mail: ugursarp1798@gmail.com
+  - slot_was_set:
+    - phone: '05056714215'
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: true_info_5_question1
+  steps:
+  - intent: greet
+  - action: utter_merhaba
+  - intent: name_info
+    entities:
+    - name: Hülya
+  - slot_was_set:
+    - name: Hülya
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - mail: ruya.kahveci@gmail.com
+    - phone: '05302615213'
+  - slot_was_set:
+    - mail: ruya.kahveci@gmail.com
+  - slot_was_set:
+    - phone: '05302615213'
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: false_info_5_question
+  steps:
+  - intent: greet
+  - action: utter_merhaba
+  - intent: name_info
+    entities:
+    - name: Mutsafa
+  - slot_was_set:
+    - name: Mutsafa
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - mail: tunaboylu.efe@turk.net
+    - phone: '05399356869'
+  - slot_was_set:
+    - mail: tunaboylu.efe@turk.net
+  - slot_was_set:
+    - phone: '05399356869'
+  - action: utter_iletisim_dogrula
+  - intent: contact_deny
+  - action: utter_iletisim_tekrar
+  - intent: contact_info
+    entities:
+    - mail: tunaboylu.efe@turk.net
+    - phone: '05027783187'
+  - slot_was_set:
+    - phone: '05027783187'
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: false_info_5_question1
+  steps:
+  - intent: greet
+  - action: utter_merhaba
+  - intent: name_info
+    entities:
+    - name: Mutsafa
+  - slot_was_set:
+    - name: Mutsafa
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - mail: tunaboylu.efe@turk.net
+    - phone: '05399356869'
+  - slot_was_set:
+    - mail: tunaboylu.efe@turk.net
+  - slot_was_set:
+    - phone: '05399356869'
+  - action: utter_iletisim_dogrula
+  - intent: contact_deny
+  - action: utter_iletisim_tekrar
+  - intent: contact_info
+    entities:
+    - mail: burcu.poyrazoglu@mynet.com
+    - phone: '05399356869'
+  - slot_was_set:
+    - mail: burcu.poyrazoglu@mynet.com
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: true_info_without_greet_question
+  steps:
+  - intent: name_info
+    entities:
+    - name: Ela
+  - slot_was_set:
+    - name: Ela
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - phone: '05416634143'
+    - mail: ogun.akal@kilicci.net
+  - slot_was_set:
+    - mail: ogun.akal@kilicci.net
+  - slot_was_set:
+    - phone: '05416634143'
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: true_info_without_greet_question
+  steps:
+  - intent: name_info
+    entities:
+    - name: Mehmet
+  - slot_was_set:
+    - name: Mehmet
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - phone: '05395625215'
+    - mail: aozbir@yalcin.com
+  - slot_was_set:
+    - mail: aozbir@yalcin.com
+  - slot_was_set:
+    - phone: '05395625215'
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: false_info_without_greet_question
+  steps:
+  - intent: name_info
+    entities:
+    - name: Hüseyin
+  - slot_was_set:
+    - name: Hüseyin
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - mail: uyetkiner@turkdogan.com.tr
+    - phone: '05583252759'
+  - slot_was_set:
+    - mail: uyetkiner@turkdogan.com.tr
+  - slot_was_set:
+    - phone: '05583252759'
+  - action: utter_iletisim_dogrula
+  - intent: contact_deny
+  - action: utter_iletisim_tekrar
+  - intent: contact_info
+    entities:
+    - mail: uyetkiner@turkdogan.com.tr
+    - phone: '05048660490'
+  - slot_was_set:
+    - phone: '05048660490'
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: false_info_without_greet_question1
+  steps:
+  - intent: name_info
+    entities:
+    - name: Şevval
+  - slot_was_set:
+    - name: Şevval
+  - action: utter_selamlama
+  - intent: contact_info
+    entities:
+    - mail: ebru13@hotmail.com
+    - phone: '05011063245'
+  - slot_was_set:
+    - mail: ebru13@hotmail.com
+  - slot_was_set:
+    - phone: '05011063245'
+  - action: utter_iletisim_dogrula
+  - intent: contact_deny
+  - action: utter_iletisim_tekrar
+  - intent: contact_info
+    entities:
+    - mail: emel.sarioglu@orbay.net
+    - phone: '05011063245'
+  - slot_was_set:
+    - mail: emel.sarioglu@orbay.net
+  - action: utter_iletisim_dogrula
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+
+- story: confirm_interview_goodbye
+  steps:
+  - intent: contact_confirm
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: action_interview_questions
+  - intent: answer
+  - action: utter_baybay
+

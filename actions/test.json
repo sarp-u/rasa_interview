@@ -1,0 +1,758 @@
+{
+	"common_questions": [
+		{
+			"id": "1",
+			"question": "Neden Bu Şirkette Çalışmak İstiyorsunuz?",
+			"answer": "Bu fırsatı heyecan verici bir ortama katkıda bulunmanın bir yolu olarak görüyorum"
+		},
+		{
+			"id": "2",
+			"question": "Sizi neden işe almalıyız?",
+			"answer": "Çalışma ortamına güzelce uyum sağlayacağım ve takıma harika bir katkı olacağımı düşünüyorum"
+		},
+		{
+			"id": "3",
+			"question": "Bu şirkete neler katabilirsiniz?",
+			"answer": "Şirket web sitenizin buradaki kültürün önemli bir parçası olduğunu söylediği, işbirlikçi, ekip odaklı bir ortamın parçası olmayı seviyorum."
+		},
+		{
+			"id": "4",
+			"question": "En güçlü yönleriniz nelerdir?",
+			"answer": "En güçlü yönlerimden birisi ayaklarımın üzerinde durabilmem ve çok fazla baskı altında çalışabilmem."
+		},
+		{
+			"id": "5",
+			"question": "Zayıf yönleriniz nelerdir?",
+			"answer": "Detaylara çok fazla önem veriyorum."
+		},
+		{
+			"id": "6",
+			"question": "Bana işyerinde karşılaştığınız bir zorluk veya çatışmayı ve bununla nasıl başa çıktığınızı anlatın.",
+			"answer": "Bu çalışanı, yazma kalitesi ve son teslim tarihlerine alışkın olduğunu bildiğimiz bir günlük gazetedeki deneyimi nedeniyle işe aldık. Kalitesi harikaydı, ancak sürekli olarak ona güvenemediğimiz için projeleri değiştirmek zorunda kaldık ve Ben ona hitap ettiğimde önce bana kızdı, sonra ağlamaya başladı. Eleştiriyi kişisel olarak aldığını görebiliyordum, bu yüzden geri adım attım ve genel olarak kaçırılan teslim tarihlerinin organizasyonun performansını nasıl etkilediğini, çalışmalarının kalitesinin harika olmasına rağmen, tutarlılık eksikliğinin bunu gölgede bıraktığını açıkladım."
+		},
+		{
+			"id": "7",
+			"question": "Bana liderlik becerilerini gösterdiğin bir zamanı anlat.",
+			"answer": "Ekibimi net bir şekilde yapılandırarak, tüm ekip üyelerinin güçlü yanlarını bularak ve görevleri devrederek projeleri başarıya ulaştırabildik. Birçok proje farklı departmanlarla işbirliği içindeydi, bu nedenle ekip üyeleri değişecekti."
+		},
+		{
+			"id": "8",
+			"question": "İşyerinde alınan bir karara katılmadığınız bir zamanı anlatır mısın?",
+			"answer": "Bir müşterinin ihtiyacını en iyi şekilde nasıl karşılayacağımız konusunda patronumla anlaşamadık. Otoritesini sorgulamak yerine, endişelerimi ona tek tek anlattım."
+		},
+		{
+			"id": "9",
+			"question": "Bana hata yaptığın bir zamanı anlat.",
+			"answer": "Bir satış şubesinde ilk müdür yardımcısı olduğumda, şubenin günlük operasyonlarından tüm büyük satış çağrılarını yapmaya kadar her şeyi kendim üstlenmeye çalıştım. En iyi yöneticilerin, işin verimli bir şekilde yapılması için nasıl etkin bir şekilde yetkilendirileceğini bildiğini çabucak öğrendim. O zamandan beri, yönetim becerilerim için sayısız ödül kazandım ve bunların çoğunun etkili bir şekilde yetki verme yeteneğimle ilgili olduğuna inanıyorum."
+		},
+		{
+			"id": "10",
+			"question": "Bana başarısız olduğun bir zamanı anlat.",
+			"answer": "Bir yönetici olarak, ne zaman şaşırsam, bunu bir başarısızlık olarak görürüm. Ekibimde ve onların çalışmalarında neler olup bittiğini öğrenmeye çalışıyorum."
+		},
+		{
+			"id": "11",
+			"question": "Mevcut işinizden neden ayrılıyorsunuz?",
+			"answer": "Daha fazla sorumluluk almaya hazır olduğumu hissediyorum. Şu anki rolümde yapabildiğim kadar ilerlediğime inanıyorum. Beni motive edecek bir ortam değişikliğine ihtiyacım var."
+		},
+		{
+			"id": "12",
+			"question": "İşinizle ilgili en az neyi seviyorsunuz?",
+			"answer": "Şu anda işimle ilgili en sevmediğim şey, şirkette ilerlemek ve terfi etmek için sınırlı fırsatlar. Harika bir organizasyon ve burada çok şey öğrendim, ancak o kadar küçük bir şirket ki, biri emekli olmadıkça veya ayrılmadıkça yükselmenin yollarını bulmak zor."
+		},
+		{
+			"id": "13",
+			"question": "Yeni pozisyonda neleri arıyorsunuz?",
+			"answer": "Yazılı iletişim becerilerimi kullanma fırsatı bulabileceğim bir pozisyon arıyorum. Şirketinizde pazarlama asistanı olarak, başarılı bir hibe yazarı olarak yıllara dayanan deneyimimi uygulayabilecek ve üzerinde çalışmaktan en çok keyif aldığım materyalleri yazabilecektim."
+		},
+		{
+			"id": "14",
+			"question": "Ne tür çalışma ortamını tercih edersiniz?",
+			"answer": "Ekip üyelerinin güçlü bir dostluk duygusuna ve iyi bir iş ahlakına sahip olduğu bir ortamda çalışmaktan keyif alıyorum. İşleri halletmeyi seven, yetkin, kibar, eğlenceli insanlarla çalışmayı seviyorum."
+		},
+		{
+			"id": "15",
+			"question": "Çalışma tarzınız nedir?",
+			"answer": "Çalışma tarzım son derece esnektir; bu kadar çok farklı projede çalışmak uyum sağlamamı gerektiriyor. Genel olarak, en iyi sonuçları elde etmek için mümkün olduğunca hızlı ve verimli çalışarak her seferinde bir proje üzerinde çalışmaya çalışıyorum."
+		},
+		{
+			"id": "16",
+			"question": "Yönetim tarzınız nedir?",
+			"answer": "Yönetim tarzımı, yönettiğim insanların ihtiyaçlarını karşılayacak şekilde ayarlarım."
+		},
+		{
+			"id": "17",
+			"question": "Patronunuz ve iş arkadaşlarınız sizi nasıl tanımlar?",
+			"answer": "İş arkadaşlarım beni baskı altında iyi çalışan organize, düşünceli biri olarak tanımlar. İdari işler yapmaktan hoşlandığım şeylerin çoğu, iyi organize edilmiş bir ortam yaratmak ve iş arkadaşlarımın ofis hayatının mümkün olduğunca sorunsuz yürümesi için ihtiyaçlarını tahmin etmektir."
+		},
+		{
+			"id": "18",
+			"question": "Baskı veya stresli durumlarla nasıl başa çıkıyorsunuz?",
+			"answer": "Geçenlerde bir son dakika projesine atandım. Panik yapmak yerine birkaç dakikamı bir program taslağı ve oyun planımın haritasını çıkarmak için ayırdım. Sonra işe koyuldum. Döngüde kalabilmeleri için ilerlememi yöneticime ilettiğimden emin oldum. Herhangi bir sorun ortaya çıkarsa, sorunları giderebilmemiz ve ilerleme kaydetmeye devam edebilmemiz için bunları döngüye ekledim. Projeyi zamanında tamamlayabildim ve müşteri çok heyecanlandı."
+		},
+		{
+			"id": "19",
+			"question": "İş dışında ne yapmayı seviyorsunuz?",
+			"answer": "Sorduğunuz için teşekkürler! Piyano çalmayı seviyorum. Aslında Classicools adında bir klasik müzik grubundayım ve şehrin her yerinde çeşitli mekanlarda performans sergiliyoruz. Her cumartesi benim evimde buluşup pratik yaparız. Ama işten sonra şarkı pratiği yapmak veya sıkılırsam yeni müzik yazmak için çok zaman harcıyorum."
+		},
+		{
+			"id": "20",
+			"question": "İşinize nasıl öncelik verirsiniz?",
+			"answer": "İşe başlar başlamaz, tamamlamam gereken ödevleri kaydederim ve teslim tarihlerine göre en yüksekten en düşüğe öncelik sırasına göre sıralarım. Bu, iş akışımı yönetmeme yardımcı oluyor ve o gün için yapmam gerekenleri takip etmemi sağlıyor."
+		},
+		{
+			"id": "21",
+			"question": "Ne hakkında tutkulusunuz?",
+			"answer": "Bu cevabın muhtemelen bir mühendisten gelmesi şaşırtıcı değil, ancak kodla deney yapmayı seviyorum. Örneğin, World of Warcraft oynamaya başladığımda arayüzden gerçekten nefret ettim, bu yüzden kendiminkini yazmaya çalışmak istedim. Kendime yeni bir kodlama dili olan Lua'yı öğretmek ve bu dili destekleyen toplulukları ve aynı oyunu modlayan diğer insanların topluluklarını aramak zorunda kaldım."
+		},
+		{
+			"id": "22",
+			"question": "Sizi ne motive eder?",
+			"answer": "Gerçekten sonuçlara göre hareket ediyorum. Gerçekleştirmek için somut bir hedefim ve bunu başarmak için güçlü bir strateji bulmak için yeterli zamanım olduğunda hoşuma gidiyor. Son işimde, yıllık hedeflerimiz çok agresifti, ancak yöneticim ve ekibimin geri kalanıyla, yıl sonu rakamlarına ulaşmak için her ay bir strateji belirlemek için çalıştım. Bunu başarmak gerçek bir heyecandı."
+		},
+		{
+			"id": "23",
+			"question": "Nasıl yönetilmeyi seversiniz?",
+			"answer": "İş arkadaşlarımın bir ekip olarak birlikte çalıştığı dinamik bir çalışma ortamını seviyorum. Projelerde onlarla buluşabilme ve işbirliği yapabilme yeteneği ile yöneticimden görevler ve projeler üzerinde net bir talimat almayı seviyorum. Ancak, projedeki rolüm netleştiğinde, bağımsız çalışabilmeyi ve ardından çalışmamı takım arkadaşlarımla masaya yatırmayı seviyorum."
+		},
+		{
+			"id": "24",
+			"question": "Kendinizi beş yıl sonra nerede görüyorsunuz?",
+			"answer": "Beş yıl içinde hedefim, pozisyonumla ilgili iki sertifikayı başarıyla almak. Bu röportajdan önce web sitenizi incelemek için biraz zaman ayırdım ve çalışanlarınıza kariyerlerini ilerletmek için sertifika almayı da içeren eğitimde ilerleme fırsatları sunduğunuzu fark ettim. Şirketinizin çalışanlarına sağladığı kaynakları kullanarak, önümüzdeki birkaç yıl içinde kariyer hedeflerimin peşinden gidebileceğime ve nihayetinde kuruluşunuzda bir yönetim pozisyonuna geçebileceğime gerçekten inanıyorum."
+		},
+		{
+			"id": "25",
+			"question": "Kariyer hedeflerinize nasıl ulaşmayı planlıyorsunuz?",
+			"answer": "İlgili dersleri alarak ve çeşitli mesleki derneklerle olan ilişkilerimi sürdürerek ek beceriler kazanmayı planlıyorum. Şirketinizin çalışanlar için kurum içi eğitim sağladığını fark ettim ve kesinlikle ilgili dersleri almakla ilgileneceğim."
+		},
+		{
+			"id": "26",
+			"question": "Hayalindeki meslek ne?",
+			"answer": "Hayalimdeki iş, her gün insanlar üzerinde olumlu bir etki yapmamı sağlardı. Her gün binlerce insanın kullandığı, zaman kazandıran ve hayatı zenginleştiren ürünler yapan sizinki gibi bir şirkette çalışmayı çok isterim. Ürünleri daha verimli ve etkili hale getirmenin yenilikçi yollarını bulan bir ekibin parçası olmayı çok isterim."
+		},
+		{
+			"id": "27",
+			"question": "Seni eşsiz yapan şey ne?",
+			"answer": "Etkili organize etme konusundaki doğal yeteneğim beni benzersiz kılıyor. İdari asistan olarak önceki görevimde, ofis malzemeleri dolabını kategoriye göre yeniden düzenlemek için bir plan buldum. Öğeleri bulmak daha kolay olduğu için, daha az sipariş verdik ve her yıl ofis malzemelerinde %30 tasarruf sağladık."
+		},
+		{
+			"id": "28",
+			"question": "Özgeçmişinde olmayan neyi bilmeliyim?",
+			"answer": "Bir önceki ofis müdürü pozisyonumda, şirketin kimsenin kullanmadığı ofis malzemelerine yılda binlerce dolar harcadığını keşfettim. Kendi zamanımda, önceki siparişleri gözden geçirdim ve hangi ürünlerin en çok ve en az kullanıldığını belirledim ve ardından satıcıyla en çok kullanılan malzemelerimizi indirimli olarak kapsayan daha uygun bir sözleşme üzerinde anlaştım."
+		},
+		{
+			"id": "29",
+			"question": "Bu rolde ilk 30, 60 veya 90 gününüzde neleri başarmış olmayı düşünüyorsun?",
+			"answer": "30 gün içerisinde en çok çalışacağım insanları tanımayı ve onların yanında rahat olmayı planlıyorum. 60 gün içinde sektör, şirket ve rekabet ortamı hakkında sağlam bir anlayışa sahip olmayı planlıyorum, böylece şirketle ilgili herhangi bir konuşmada kendimi tutabilirim. 90 gün içinde benim için belirlenen hedeflere ulaşmayı planlıyorum."
+		},
+		{
+			"id": "30",
+			"question": "Maaş beklentiniz nedir?",
+			"answer": "Maaş aralığım esnektir. Elbette, on yıllık deneyimim ve ödüllü satış rekorum için adil bir şekilde tazmin edilmek isterim. Ancak, pozisyonun ayrıntılarını tartıştıktan sonra belirli sayıları tartışmaya açığım."
+		},
+		{
+			"id": "31",
+			"question": "Sence neyi daha iyi veya farklı yapabiliriz?",
+			"answer": "Açıkçası, bu şirket sektörde yenilikçi ve lider olarak büyük bir üne sahiptir. Pek çok şey yolunda gidiyor, bu pozisyonla bu kadar ilgilenmemin bir nedeni de bu. Bu harika bir şirket, ancak harika olan her şey gibi, her zaman iyileştirmeye yer vardır. Söyleyebileceğim kadarıyla, işletmenin lider üretimi, olabileceği kadar proaktif değil. Şu anda, ağızdan ağza ve diğer pasif potansiyel müşteri üretimine çok fazla güveniliyor. Bu yöntemlerde yanlış bir şey yoktur, ancak şirket, olası satış yaratma konusunda biraz daha inisiyatifle daha iyi hizmet verebilir. Bu kesin politikaları tasarlama ve uygulama deneyimim var."
+		},
+		{
+			"id": "32",
+			"question": "İş kaynaklı konum değişikliğine sıcak bakıyor musunuz?",
+			"answer": "Doğru fırsat için kesinlikle taşınmaya hazırım. Bu pozisyonun ve şirketin bu fırsat olduğuna inanıyorum."
+		},
+		{
+			"id": "33",
+			"question": "Bir hayvan olsaydın hangisi olmak isterdin?",
+			"answer": "Köpek olurdum çünkü başkalarının yanında olmayı seviyorum. Bir köpek gibi, gruplarla etkileşime girdiğimde en mutlu oluyorum ve çevremdekileri desteklemekten zevk alıyorum."
+		},
+		{
+			"id": "34",
+			"question": "Bu işte böyle bir pozisyonun açıldığını nereden öğrendiniz?",
+			"answer": "İş ilanınızı internet üzerinden buldum."
+		},
+		{
+			"id": "35",
+			"question": "Bir iş arkadaşınızın veya müşterinin size en son ne zaman kızdığını anlatın. Ne oldu?",
+			"answer": "Her duruma analitik bir bakış açısıyla bakmaya çalışıyorum ve duygularımın eylemlerimi belirlemesine izin vermiyorum. Geçmişte profesyonelliği tartışılan ve işin gereklerini yerine getirmeyen çalışanlarım oldu. Bu durumlarda, en iyi politikanın sorunlar hakkında dürüst olmak ve iyileştirme için net stratejiler sunmak olduğunu buldum."
+		},
+		{
+			"id": "36",
+			"question": "30 metrelik bir kuyunun dibinde bir salyangoz var. Her gün üç metre tırmanıyor ama geceleri iki metre geri kayıyor. Kuyudan çıkması kaç gün sürer?",
+			"answer": "28 gün, çünkü salyangoz her gün 1 metre daha yükseğe çıkacak. 27. günde 27 metre yüksekliğe gelecek ve 28. günde 3 metre daha tırmanarak kuyudan çıkmış olacak."
+		},
+		{
+			"id": "37",
+			"question": "Bu rol için gereğinden fazla nitelikli misiniz?",
+			"answer": "Kağıt üzerinde fazla kalifiye olduğum görünse de, daha iyi bir terimin tam olarak kalifiye olduğumu hissediyorum. Şu anda çok fazla seyahat etmem gerekmeyecek ve kaliteli bir iş-yaşam dengesi kurabileceğim bir pozisyon arıyorum. Yeni değer programları ve müşteri ödüllendirme sistemleri uygulayarak şirketinizin mevcut müşteri tutma sorununu çözebilirim. Bu, kanıtlanmış sistemlerle minimum maliyetle yapılabilir ve aylık bazda gelir artışına neden olur. Bu, yalnızca deneyim sahibi olduğum bir alan değil, aynı zamanda müşteri kazanımı ve elde tutma benim için bir tutku olduğu için başarılı olduğum bir alandır."
+		},
+		{
+			"id": "38",
+			"question": "Şirketimiz hakkında ne biliyorsun?",
+			"answer": "Şirketinizin sürekli gelişme taahhüdüne gerçekten saygı duyuyorum. Büyüme ve inovasyonun her sektörde, özellikle de teknoloji alanında kilit önemde olduğunu düşünüyorum ve bu organizasyon sürekli olarak önceden belirlenmiş sınırları zorluyor. Yalnızca bu geçen yıl içinde, farklı pazarlara girerken oldukça fazla risk aldınız ve bunların hepsi karşılığını verdi. Bir mühendis olarak, sorunlara yeni ve yaratıcı yollarla yaklaşmaya çalışıyorum, bu yüzden bu takım için bir değer olacağımı düşünüyorum."
+		},
+		{
+			"id": "39",
+			"question": "Özgeçmişini bizim için kısaca özetler misin?",
+			"answer": "Wisconsin-Madison Üniversitesi'nde geçirdiğim süre boyunca lisans eğitimimi zooloji bölümünde araştırma teknisyeni olarak geçirdim. Bu süre zarfında, araştırma çalışmalarımın çoğu, primat davranışlarının incelenmesini içeriyordu. Programımdan mezun olduktan sonra, University of Wisconsin - Milwaukee'de bir araştırma rolü buldum. Ayrıca zooloji laboratuvarlarında çalıştım, bu sefer terapi hayvanlarının insan sağlığını ve refahını nasıl etkilediğine odaklandım. Bu çalışmalar sırasında verilerin kayıt altına alınmasından ve raporların yürütülmesinden sorumluydum."
+		},
+		{
+			"id": "40",
+			"question": "Şimdiye kadar kariyerinizin en ödüllendirici deneyimi neydi?",
+			"answer": "Sahip olduğum en ödüllendirici ekip çalışması deneyimi, üniversitenin son yılındaydı. Notumuzun oldukça büyük bir bölümünü oluşturan 4 kişilik ekipler halinde teslim edilecek bir projemiz vardı. Herkesin kendi ağırlığından fazlasını çektiğine inanıyorum çünkü çok fazla şey tehlikedeydi. Herkesin kazanacak veya kaybedecek önemli bir şeyi olduğunda ekip çalışması çok faydalıdır."
+		},
+		{
+			"id": "41",
+			"question": "Bir takım arkadaşınıza yardım etmemeyi seçtiğiniz bir zamanı anlatır mısınız?.",
+			"answer": "Aslında her iki durumda da eşit derecede rahatım. Son işimde hem bağımsız hem de takım projeleri yapma fırsatım oldu ve çeşitlilikten gerçekten keyif aldım. En sevdiğim çalışma senaryosu, ekip olarak bir projeye başladığımızda, atanmış görevlerimiz üzerinde bağımsız olarak çalışmaya başlamadan önce yaklaşımlarımızı beyin fırtınası yaparak ve son teslim tarihlerini ve bireysel sorumluluklarımızı belirlediğimiz zamandır. Ancak bağımsız olarak çalışırken bile, tavsiye ve destek için bir ekibe ulaşabilmenin çok değerli olduğunu düşünüyorum. Ayrıca, yardıma ihtiyaç duyduklarında diğer proje ekibi üyelerine yardım etmeye hazır olduğumdan da emin oluyorum."
+		},
+		{
+			"id": "42",
+			"question": "Çalışmanızın eleştirildiği bir zamanı anlatın.",
+			"answer": "Herkes gibi ben de yöneticilerimden işimi nasıl geliştirebileceğimi görmeme yardımcı olan girdiler aldım. Bir keresinde üzerinde çok zaman harcadığım bir projeyi revize etmem istendi, ancak eleştiriyi dikkatlice dinledikten sonra, bitmiş ürünü güçlendirecek değişiklikleri nasıl yapabileceğimi gördüm. Özellikle yorumların kariyerimde gelişmeme ve becerilerimi güçlendirmeme yardımcı olabileceği durumlarda, farklı görüş ve deneyimlere sahip insanlardan bir şeyler öğrenmeye her zaman hevesliyim."
+		},
+		{
+			"id": "43",
+			"question": "Son işinizde daha iyisini yapabileceğinizi düşünüyor musunuz?",
+			"answer": "Dürüst olmak gerekirse, geçmişe bakıldığında, muhtemelen son işimde daha iyi yapabileceğim bir şey vardı, ama gerçekten önemli bir sonucu olan hiçbir şey aklıma gelmiyor. Son ekonomik gerilemenin bir sonucu olarak birkaç aksilik yaşadık, ama sonuçta bu bize her şeye daha iyi hazırlanmamızı öğretti."
+		},
+		{
+			"id": "44",
+			"question": "Birini nasıl kovarsın?",
+			"answer": "İlk olarak, uygun protokol hakkında İK'ya danışırdım. İkincisi, daha sonra iyi yaptıkları ve kötü yaptıkları şeyleri belirterek işten çıkarılmalarını çalışana bildiririm. Son olarak, herhangi bir karışıklık veya sorunun ele alınmasını sağlamak için herhangi bir soru sormalarına izin veririm."
+		},
+		{
+			"id": "45",
+			"question": "Daha çok lider misiniz yoksa takipçi mi?",
+			"answer": "Lider olmaktan zevk alıyorum ve doğal olarak en iyi olduğum şeyin bu olduğunu düşünüyorum. Ancak benden daha tecrübeli olanları da öğrenmek ve takip etmek için fırsatlar ararım. Yöneticilerimden ve daha kıdemli ekip üyelerimden öğrenmek için sorular sormayı ve başkalarıyla işbirliği yapma şansına sahip olmayı seviyorum. Bunun öğrenmenin harika bir yolu olduğunu buldum. Bu yüzden liderlik etmekten keyif alıyorum ama aynı zamanda güçlü bir ekiple çalışmayı ve takip edeceğim harika danışmanlara sahip olmayı da seviyorum. Bu pozisyona ilgi duymamın bir nedeni de buydu. İş tanımında birkaç farklı departman ve ekip lideriyle işbirliği yapacağımı ve kendi küçük bir ekibime liderlik edeceğimi gördüm."
+		},
+		{
+			"id": "46",
+			"question": "Sahip olmak istediğiniz üç beceri veya özellik nedir?",
+			"answer": "Büyükannemin dışa dönüklüğüne, sayılarla olan gücüne ve inatçı olmaktan korkmamasına her zaman hayran olmuşumdur. Ama ona daha çok onun gibi olabilmeyi dilediğimi söylediğimde, bana içe dönüklüğümün, dil sevgimin ve başkalarının duygularıyla empati kurabilme yeteneğimin beni gerçekten ilgili biri yaptığını hatırlatıyor."
+		},
+		{
+			"id": "47",
+			"question": "Okuduğunuz son kitap nedir?",
+			"answer": "En son okuduğum kitap Walt Whitman'ın Leaves of Grass kitabıydı. Her nasılsa, okulda o klasiği okumayı özledim ve bir arkadaşım Whitman'dan hoşlanacağımı düşündü. Birkaç sayfadan sonra, tek bir pasajda keskin yorumların yanı sıra nazik incelikleri nasıl yapabildiğine gerçekten hayran kaldım."
+		},
+		{
+			"id": "48",
+			"question": "Şimdiye kadar sahip olduğun en iyi iş nedir?",
+			"answer": "Sahip olduğum en iyi iş, son işimdi. Staj gerçekten bana endüstrinin nasıl çalıştığına dair içeriden bilgi verdi ve ben de becerilerimi geliştirebildim. Altında çalıştığım harika bir profesyonel grubum vardı. Orada öğrendiklerimi uzun vadeli bir pozisyonda kullanmaktan heyecan duyuyorum."
+		},
+		{
+			"id": "49",
+			"question": "Hiç işini eve götürür müsün?",
+			"answer": "Ben son derece organize bir insanım, bu yüzden işimi işte yapabilme eğilimindeyim. Ancak, ihtiyaç duyulursa, eve iş götürmeye karşı olmazdım. Boş zamanıma değer verdiğim için bunu alışkanlık haline getirmemeye çalışıyorum. Yine de yaptığımız işin önemli olduğunun ve bazen yapılması gerekeni yapmanız gerektiğinin farkındayım."
+		},
+		{
+			"id": "50",
+			"question": "En son yönettiğiniz proje neydi ve sonucu ne oldu?",
+			"answer": "Son projem, çalıştığım küçük tişört şirketindeki tedarik seçeneklerimizi düzene sokmanın yollarını bulmak için bir çalışma grubunu bir araya getirmekti. Satın aldığımız hacim için en iyi adil ticaret çözümlerini bulmak için prodüksiyon sanatçıları ve muhasebecilerle birlikte çalıştım. Hem o zamanki durumumuz için en iyi seçimi hem de satışlarımız arttıkça tedarik zincirimizi ölçeklendirme planını elde ettik ve bu da bize başlangıçta planladığımızdan biraz daha fazlasını araştırmamızı sağladı."
+		}
+	],
+	"technical_questions": [
+		{
+			"id": "1",
+			"question": "Hangi proje yönetimi araçlarını kullandınız?",
+			"answer": "Son işimde Jira'yı kullandım."
+		},
+		{
+			"id": "2",
+			"question": "Öğrendiğiniz bazı hatalardan bahsedin.",
+			"answer": "Ben her hatadan öğrenmeye ve gelişmeye çalışan bir insanım. Yıllar önce üzerinde çalıştığım bir ekip satış yapamadı ve bize bunun kısmen etkisiz görsellerimizle yapılması gerektiği söylendi. Sonraki altı ay boyunca, boş zamanımın çoğunu, çekici görsel sunumlar oluşturmak için çeşitli yazılım programlarını nasıl kullanacağımı öğrenmekle geçirdim. O zamandan beri toplantılarda ve satış konuşmalarında görselliğim için sürekli övüldüm."
+		},
+		{
+			"id": "3",
+			"question": "Bir ekiple mi yok yalnız mı çalışmaktan hoşlanırsınız?",
+			"answer": "Göreve bağlı. Beyin fırtınası söz konusu olduğunda, ekipler birden fazla girdiyle harika fikirler üretir ve ekipler insanların güçlü yönlerini vurgulayabilir. Ancak bir birey olarak görevlerimi yerine getirmekten kesinlikle zevk alıyorum, çünkü birçok yönden ekibin tam olarak başarılı olması için tek başına çalışma becerisi gerekiyor."
+		},
+		{
+			"id": "4",
+			"question": "Becerilerinizi nasıl keskin ve güncel tutuyorsunuz?",
+			"answer": "Mesleki gelişim kursları alıyorum, mesleki etkinliklere katılıyorum ve son olarak sosyal medyadaki düşünce liderlerini takip ediyorum."
+		},
+		{
+			"id": "5",
+			"question": "Kendi veritabanı sunucunuzu yazarken nelere dikkat etmelisiniz?",
+			"answer": "Veri Modeli, Veri Tutarlılığı, Veri Güvenliği, Veri Koruma, Çoklu Erişim ve Entegrasyon, Verimlilik, Kullanılabilirlik ve Uygulama ve Hizmet Maliyetlerini dikkate alıyorum."
+		},
+		{
+			"id": "6",
+			"question": "Super class nedir?",
+			"answer": "Bir super class, birçok alt sınıfın oluşturulabileceği sınıftır. Alt sınıflar, bir super class'ın özelliklerini devralır. Üst sınıf, ana sınıf veya temel sınıf olarak da bilinir."
+		},
+		{
+			"id": "7",
+			"question": "Yazılım mühendisliğinin temel ilkeleri olduğuna inandığınız şeyleri açıklayın.",
+			"answer": "Ana hedefi, zamanında ve bütçe dahilinde yüksek kaliteli yazılım üretmek için sistematik modeller ve güvenilir teknikler geliştirmektir ve bu endişeler teori ve ilkelerden günlük uygulamaya kadar uzanır."
+		},
+		{
+			"id": "8",
+			"question": "Yazılım geliştirme yaşam döngüsü nedir? Aralarındaki farklar nelerdir?",
+			"answer": "SDLC veya Yazılım Geliştirme Yaşam Döngüsü, en kısa sürede en yüksek kalitede ve en düşük maliyetle yazılım üreten bir süreçtir. SDLC, bir yazılım sisteminin nasıl geliştirileceği, değiştirileceği, bakımının yapılacağı ve değiştirileceğine ilişkin ayrıntılı bir plan içerir."
+		},
+		{
+			"id": "9",
+			"question": "İyi bir yazılım mühendisini harika bir yazılım mühendisinden ayıran nedir?",
+			"answer": "Birlikte çalıştığım en iyi yazılım geliştiricileri, zarif tasarıma karşı hızlı bir hack kullanarak gerçekten denge sağlıyor. Milyonlarca kullanıcıya ölçeklenecek şekilde bir kerelik veri yüklemesi için kodun fazla mimarisini yapmak zaman kaybı olabilir. Tersine, ölçeklenmesi gereken berbat bir çözümü bir araya getirmek tamamen farklı bir sorundur. Harika yazılım geliştiricileri her ikisini de yönetebilir. Ancak gerçekten yetenekli olanlar tüm bunları yönetebilir ve yine de daha az yetenekli geliştiricilerle çalışmak için sabır ve iletişim becerilerine sahip olabilir. Her şeyi kendiniz kodlayamazsınız ve egonuz ve/veya solduran eleştiriniz ekibin geri kalanını uzaklaştırırsa, bu bir felaket reçetesidir."
+		},
+		{
+			"id": "10",
+			"question": "Programlama dili nedir?",
+			"answer": "Programlama dilleri, bilgisayarların takip etmesi için talimatlar yazmak için kullandığımız araçlardır. Bilgisayarlar ikili olarak 'düşünür' - 1'ler ve 0'lardan oluşan diziler. Programlama dilleri, 1'leri ve 0'ları insanların anlayabileceği ve yazabileceği bir şeye çevirmemize izin verir. Bir programlama dili, insanların düşüncelerimizi bilgisayarların anlayabileceği talimatlara çevirmesine izin veren bir köprü görevi gören bir dizi sembolden oluşur."
+		},
+		{
+			"id": "11",
+			"question": "Entegre Geliştirme Ortamı Nedir?",
+			"answer": "Entegre geliştirme ortamı, ortak geliştirici araçlarını tek bir grafik kullanıcı arabiriminde birleştiren uygulamalar oluşturmaya yönelik bir yazılımdır."
+		},
+		{
+			"id": "12",
+			"question": "Duyarlı tasarım nedir? Sabit ve akışkan düzenler arasındaki fark nedir?",
+			"answer": "Duyarlı tasarımla oluşturulan web siteleri, görüntüleri ölçekleyen, metni saran ve düzeni ayarlayan kesme noktalarını hedeflemek için medya sorgularını kullanır; tasarım. Akışkan tasarımla oluşturulan web siteleri, genişlikler için göreli göstergeler olarak yüzdeleri kullanır. Sabit tasarım. Sabit tasarım kullanılarak oluşturulan web siteleri, sabit piksel genişliklerine dayanır. Sabit boyutlara sahip bir tasarım bazen çalışmaya başlamanın en hızlı yolu olsa da, birden fazla cihazda daha az kullanıcı dostu bir deneyim sağlar."
+		},
+		{
+			"id": "13",
+			"question": "Stack nedir? Bir stack'in iki temel işlemi nelerdir?",
+			"answer": "Yığın, üç temel işlemi olan doğrusal bir veri yapısıdır: push, pop. Bazı yığın uygulamaları, bir yığındaki bir öğeyi değiştirmeden görmenizi sağlayan bir işlev olan peek'e de izin verir. Yığınlar, son giren ilk çıkar yapısı kullanır - bu nedenle yığına eklenen son öğe, kaldırılabilen ilk öğedir. Kuyruklar, ilk giren ilk çıkar yapısıyla çalışan benzer bir veri yapısıdır. Yığınlar genellikle bir dizi veya bağlantılı bir liste ile uygulanır. Bir röportajda bir yığın uygulamanız ve farklı işlemler gerçekleştirmeniz istenebilir."
+		},
+		{
+			"id": "14",
+			"question": "Bir yazılım mühendisi olarak görevinizde hangi proje yönetimi araçlarının en yararlı olduğunu düşünüyorsunuz?",
+			"answer": "JIRA, Çevik SDLC ilkesiyle çalışan çeşitli kuruluşlar tarafından en çok kullanılan proje yönetim yazılımıdır. Ekipler Kanban panoları, özel saldırı panoları oluşturabilir ve gerçek zamanlı raporlama olanaklarını kullanabilir"
+		},
+		{
+			"id": "15",
+			"question": "Constructor ve method abstract class ve interface arasında ayrım yapın.",
+			"answer": "Soyut bir sınıf, programcı tarafından yalnızca kısmen uygulanan bir sınıftır. Bir veya daha fazla soyut yöntem içerebilir. Soyut bir yöntem, programcıya yöntemin bir alt sınıfta uygulanması gerektiğini söylemeye yarayan basit bir işlev tanımıdır. Bir arabirim, soyut bir sınıfa benzer; gerçekten de arabirimler, sınıflar ve soyut sınıflarla aynı ad alanını işgal eder. Bu nedenle bir sınıfla aynı isimde bir interface tanımlayamazsınız. Bir arabirim tamamen soyut bir sınıftır; yöntemlerinin hiçbiri uygulanmaz ve ondan bir sınıf alt sınıflaması yerine, bu arabirimi uyguladığı söylenir."
+		},
+		{
+			"id": "16",
+			"question": "QuickSort'u tanımlamak için Big O notasyonunu kullanın.",
+			"answer": "Quicksort bir logaritmik zaman algoritmasıdır, Big O notasyonu O(log n)'dur."
+		},
+		{
+			"id": "17",
+			"question": "Ekibinizin projeleri tamamlamak için şu anda uyguladığı süreci tanımlayın. Ne işe yarar? Neyi değiştirirdin ve neden?",
+			"answer": "Proje yönetimi, şirketinizin en önemli görevlerini ön planda tutarken bütçenize ve son teslim tarihine bağlı kalmanın anahtarıdır."
+		},
+		{
+			"id": "18",
+			"question": "Array ve Stack arasındaki temel farklar nelerdir?",
+			"answer": "Yığın, nesnelerin yalnızca bir ucundan, yani yığının tepesinden eklenip çıkarılabilmesi için belirli bir sırada düzenlenmiş nesnelerin sıralı bir koleksiyonudur. Bir dizi ise, programın karmaşıklığını azaltmak için çok sayıda veri değerini depolamak için kullanılan rastgele erişimli bir veri yapısıdır. Bir dizide, nesneler verimli bellek yönetimi için birbiri ardına doğrusal olarak depolanır."
+		},
+		{
+			"id": "19",
+			"question": "Karmaşık bir sorunu çözmek için ekibinizdeki diğer kişilerle veya diğer ekiplerle işbirliği yapmak zorunda kaldığınız bir zamanı anlatın.",
+			"answer": "Yöneticiler ve iş arkadaşlarımla sık sık çalıştım ve bunu nadiren zor buluyorum. Bazen bir ekip ortamında yeni bir yöneticiye veya lidere uyum sağlamak biraz zaman alabilir. Ancak beklentileri birleştirmek ve netleştirmek için zaman ayırdığımız sürece her şeyin yoluna gireceğini düşünüyorum. Her ilişkide olduğu gibi bir uyum süreci bekliyorum."
+		},
+		{
+			"id": "20",
+			"question": "Geçmiş projelerde hangi ölçeklendirme sorunlarıyla uğraşmak zorunda kaldınız?",
+			"answer": "İşlevsel gereksinimler, geliştirilmiş bir yazılım ürününün gerçekleştirmesi beklenen özelliklerdir. Örneğin, bir e-Ticaret web sitesine ödeme seçeneği eklemek işlevsel bir gereklilik olacaktır. İşlevsel olmayan gereksinimler, Kullanıcı Arayüzü görünümü ve hissi, Güvenlik, Performans, Birlikte Çalışabilirlik, Güvenilirlik vb. gibi uygulamanın kullanılabilirliğini ölçer."
+		},
+		{
+			"id": "21",
+			"question": "Hangi web teknolojileri sizi heyecanlandırıyor ve önümüzdeki on yılda neden kazanacaklarını/hayatta kalacaklarını düşünüyorsunuz?",
+			"answer": "Web geliştirmenin geleceği büyük ölçüde yapay zekaya bağlı olacaktır. Aslında, mevcut yazılım ve uygulamalarda zaten gördüğümüz bir şey. Dijital dünyanın halihazırda kullandığı birkaç uygulama var: sesli komutlar, sanal gerçeklik, otomatik kodlama ve daha fazlası. Web geliştirme, gittikçe daha gelişmiş araçlar ve programlama dilleri keşfettikçe sürekli gelişiyor. Bu değişikliklerin çoğunun yalnızca kullanıcının rahatlığını ve işlevselliğini karşılamasını bekleyebiliriz."
+		},
+		{
+			"id": "22",
+			"question": "Açık kaynak projelerine katkıda bulunuyor musunuz? Sorunları işaretlediniz mi?",
+			"answer": "Evet bu tür projelere katkıda bulunuyorum, son olarak bir kripto projesi ile çalışırken büyük bir bug buldum."
+		},
+		{
+			"id": "23",
+			"question": "Bir projeyi baştan sona tamamlama sürecinizi tanımlayın.",
+			"answer": "Proje hedeflerini ve çıktılarını belirleyin. Proje risklerini, kısıtlamalarını ve önceliklerini ortaya çıkarın. Proje Kapsamını Oluşturun. Proje teklifini gönderin. Bir proje yol haritası oluşturun. Ayrıntılı bir proje planı oluşturun. Görevleri yönetin ve proje ilerlemesini izleyin. Proje planını gözden geçirin ve ayarlayın. Proje ilerlemesini iletin. HCommunicate proje ilerleme."
+		},
+		{
+			"id": "24",
+			"question": "Black box testi nedir? White box testi nedir?",
+			"answer": "Kara Kutu Testi, test edilen öğenin iç yapısının/tasarımının/uygulanmasının test eden tarafından bilinmediği bir yazılım test yöntemidir. Beyaz Kutu Testi, test edilen öğenin iç yapısının/tasarımının/uygulanmasının testçi tarafından bilindiği bir yazılım test yöntemidir."
+		},
+		{
+			"id": "25",
+			"question": "Kişisel projeleriniz var mı? Bana onlardan söz eder misin?.",
+			"answer": "Evet, birçok kişisel projem var. Github linkimde bulabilirsiniz. Son projem israfın çöpe gitmesini önlemekti. Çöpe atmak yerine, ihtiyacımız olmayan şeyleri onlara ihtiyacı olan insanlara verebiliriz."
+		},
+		{
+			"id": "26",
+			"question": "Bir projenin başarısını nasıl belirlersiniz?",
+			"answer": "Müşterinin isteklerini yerine getirirse başarılı diyebilirim."
+		},
+		{
+			"id": "27",
+			"question": "Compiler ve interpreter arasındaki fark nedir?",
+			"answer": "Yorumlayıcı, bir programlama dilini anlaşılır bir dile çeviren bir programdır. Derleyici, girdi, yani Yüksek Düzeyli Dil alan ve düşük seviyeli bir dil, yani makine veya montaj dili çıktısı üreten bir çevirmendir."
+		},
+		{
+			"id": "28",
+			"question": "Şirketimizin, ürünümüzün veya ekibimizin en çok hangi yönü ilginizi çekiyor?",
+			"answer": "Makine öğrenimi ile ilgileniyorum, bu yüzden bu teknolojiyle çalıştığınız projeler katkıda bulunmak istediğim kısım."
+		},
+		{
+			"id": "29",
+			"question": "Yaşlı (çok teknik olmayan) anneme bulut bilişim kavramını açıklayın.",
+			"answer": "Ailenizdeki herkesin bifteği sevdiğini hayal edin. 200'den fazla biftek saklayan büyük bir dondurucunuz var ve güç kaynağı kapanıyor. Bifteklerin hepsi şimdi bozuldu. Bu nedenle, bir üçüncü taraf deposu, bifteklerinizi bir ücret karşılığında saklamayı ve istediğiniz zaman size teslim etmeyi teklif ederdi. Dönem. Yemeğinizin bozulmayacağını garanti ederler, bozulursa değiştirirler. Biftek saklama riski veya bozulma korkusu olmayan 7 gün 24 saat hizmettir."
+		},
+		{
+			"id": "30",
+			"question": "Constructor ve method arasında ayrım yapın.",
+			"answer": "Yapıcılar, nesnenin durumunu başlatmak için kullanılır. Yöntemler gibi, bir yapıcı da Nesne oluşturma sırasında yürütülen ifadeler koleksiyonunu içerir. Yöntem, belirli bir görevi yerine getiren ve sonucu arayana döndüren bir ifadeler topluluğudur. Bir yöntem, hiçbir şey döndürmeden belirli bir görevi gerçekleştirebilir."
+		},
+		{
+			"id": "31",
+			"question": "Teknik bilgisi veya geçmişi olmayan paydaşlara teknik zorlukları nasıl açıklarsınız?",
+			"answer": "Teknik bilgileri daha iyi açıklamak için mizah ve tevazu kullanırdım, anlatacağım konuyu hikayeleştirerek daha anlaşılır şekle sokardım."
+		},
+		{
+			"id": "32",
+			"question": "Büyük bir uygulamada düzeltmekle yükümlü olduğunuz zor bir hatayı açıklayın. Sorunu nasıl çözdünüz?",
+			"answer": "Aslında uygulamamızın 3. taraf resim görüntüleyici alt bileşenindeydi. Uygulamamızın 2-3 kullanıcısının sık sık resim görüntüleyici bileşeninin bir istisna atmasına ve korkunç bir şekilde ölmesine neden olduğunu gördük. Ancak, iş gününün çoğunda uygulamayı aynı görev için kullanmasına rağmen sorunu hiç görmeyen düzinelerce başka kullanıcımız vardı. Bilgisayarı/yapılandırmayı ekarte etme sorunu yaşamayan başka bir kullanıcıyla bilgisayar değiştirmelerini sağladılar. - Sorun onları takip etti. Uygulamaya giriş yapmalarını ve sorunu hiç görmemiş bir kullanıcı olarak çalışmalarını sağladılar. - HATA onları takip etti. Kullanıcının hangi görüntüyü görüntülediğini bildirmesi ve bu görüntüyü arka arkaya binlerce kez görüntülemeyi tekrarlamak için bir test koşum takımı kurması. Sorun, koşum takımında kendini göstermedi. Bir geliştirici, kullanıcılarla oturup bütün gün onları izler. Hataları gördüler, ancak onlara neden olacak olağan dışı bir şey yaptıklarını fark etmediler."
+		},
+		{
+			"id": "33",
+			"question": "Yazılım testi hakkındaki düşünceleriniz nelerdir?",
+			"answer": "Test yazılımı, geliştirmeden daha karmaşıktır. Becerilerini artırmak ve bir programcı gibi eşit derecede önemli olmak için eşit fırsatlara sahipler. Kodlama becerisine sahip olmaya gerek yok: Çoğu testçi, herhangi bir programlama becerisine sahip değilse yazılımı test edebileceğini düşünüyor."
+		},
+		{
+			"id": "34",
+			"question": "Thread ve process arasındaki temel fark nedir?",
+			"answer": "İşlem, bir programın yürütülmekte olduğu anlamına gelirken, iş parçacığı bir işlemin bir bölümü anlamına gelir. Bir İşlem Hafif Değildir, oysa Konular Hafiftir. Bir İşlemin sonlandırılması daha fazla zaman alır ve iş parçacığının sonlandırılması daha az zaman alır."
+		},
+		{
+			"id": "35",
+			"question": "'Agile' yazılım geliştirme nedir ve bu konudaki düşünceleriniz nelerdir?",
+			"answer": "Çevik yazılım geliştirme, gereksinimlerin ve çözümlerin kendi kendini organize eden çapraz işlevli ekipler arasındaki işbirliği yoluyla geliştiği, yinelemeli geliştirmeye dayalı bir grup yazılım geliştirme metodolojisini ifade eder. Çevik yöntemler veya Çevik süreçler genellikle, sık denetim ve uyarlamayı teşvik eden disiplinli bir proje yönetimi sürecini, ekip çalışmasını, kendi kendine organize olmayı ve hesap verebilirliği teşvik eden bir liderlik felsefesini, yüksek kaliteli yazılımın hızlı bir şekilde teslim edilmesini sağlamayı amaçlayan bir dizi mühendislik en iyi uygulamasını teşvik eder, ve geliştirmeyi müşteri ihtiyaçları ve şirket hedefleri ile uyumlu hale getiren bir iş yaklaşımı."
+		},
+		{
+			"id": "36",
+			"question": "İşlevsel ve nesne yönelimli programlama gibi bildirimsel ve zorunlu paradigmalar hakkında düşünceleriniz nelerdir?",
+			"answer": "Zorunlu dillerde, bilgisayara belleğindeki bitleri, baytları ve sözcükleri nasıl ve hangi sırayla değiştireceğini söylersiniz. İşlevsel olanlarda, bilgisayara nesnelerin, eylemlerin vb. ne olduğunu söyleriz. Örneğin, 0'ın faktöriyelinin 1 olduğunu ve diğer tüm doğal sayıların faktöriyelinin o sayının ve ondan öncekinin faktöriyelinin çarpımı olduğunu söylüyoruz. n'nin faktöriyelini hesaplamak için bir bellek bölgesi ayırıp orada 1'i sakla, sonra o bellek bölgesindeki sayıyı 2'den n'ye kadar olan sayılarla çarpıp sonucu aynı yerde sakla ve sonunda, demiyoruz. bellek bölgesi faktöriyel içerecektir."
+		},
+		{
+			"id": "37",
+			"question": "Çoklu kalıtım nedir? Avantajları ve dezavantajları nelerdir?",
+			"answer": "Çoklu kalıtım, bir alt sınıfın birden fazla üst sınıftan türetilebildiği süreçtir. Avantajı, bir sınıfın birden fazla temel sınıfın işlevselliğini devralabilmesidir, ancak dezavantajı, iki temel sınıf aynı ada sahip bir yöntemi uyguladığında çok fazla karışıklığa yol açabilmesidir."
+		},
+		{
+			"id": "38",
+			"question": "Algoritma nedir?",
+			"answer": "Algoritma, bir sorunu çözmek veya bir görevi tamamlamak için bir dizi talimattır. Algoritmanın yaygın bir örneği, bir yemek veya yemek hazırlamak için özel talimatlardan oluşan bir tariftir. Her bilgisayarlı aygıt, işlevlerini donanım veya yazılım tabanlı rutinler biçiminde gerçekleştirmek için algoritmalar kullanır."
+		},
+		{
+			"id": "39",
+			"question": "Üzerinde çalıştığınız son projeyi, engelleri ve başarısına katkılarınızı da dahil ederek açıklayın.",
+			"answer": "Kariyerim boyunca birçok önemli projede çalıştım. Birine başlarken benim için gerçekten çok önemli olan, başlangıçta hedefler konusunda çok net olmak ve ardından kilometre taşları olan bir plan oluşturmak. Ayrıca projelerin en zor kısımlarını erkenden ele almayı seviyorum - bu şekilde önemli sorunlar olması durumunda, son teslim tarihinden önce tamamlamak için yine de oldukça fazla zamanım olacak. Ayrıca genellikle büyük görevleri daha küçük parçalara bölerim, böylece nereden başlayacağımı bilmek daha kolay olur."
+		},
+		{
+			"id": "40",
+			"question": "Bir ürüne ne zaman bitmiş dersiniz?",
+			"answer": "MVP'yi yerine getirdiğinde aslında bitmiş sayılabilir ama bence rahatladığımda bitti diyorum."
+		},
+		{
+			"id": "41",
+			"question": "Kodu incelerken hangi önemli bilgileri analiz ediyorsunuz?",
+			"answer": "Biçimlendirme: Boşluklar ve satır sonları nerede? Sekmeler mi yoksa boşluklar mı kullanıyorlar? Stil: Değişkenler/parametreler nihai olarak mı bildirildi? Yöntem değişkenleri, kullanıldıkları kodun yakınında mı yoksa yöntemin başında mı tanımlanıyor? Adlandırma: Alan/sabit/değişken/param/sınıf adları standartlara uygun mu? İsimler çok mu kısa? Test kapsamı: Bu kod için bir test var mı?"
+		},
+		{
+			"id": "42",
+			"question": "Bugün sektörümüzün karşılaştığı bazı internet güvenliği sorunları nelerdir? Şirketimizi etkilememesini nasıl sağlarsınız?",
+			"answer": "Fidye yazılımı saldırıları, IoT saldırıları, Bulut saldırıları, Kimlik avı saldırıları, Blok zinciri ve kripto para birimi saldırıları, Yazılım güvenlik açıkları, Makine öğrenimi ve AI saldırıları, BYOD politikaları, İçeriden bilgi saldırıları. Her iş arkadaşımın bu saldırıları ve bunun olmasını nasıl önleyebileceklerini bilmesini sağlayacağım."
+		},
+		{
+			"id": "43",
+			"question": "Üç veri yapısını açıklayabilir misiniz?",
+			"answer": "Bir veri yapısı, verimli erişime ve değişikliğe izin verecek şekilde saklanan ve düzenlenen bir veri türü 'değerleri' topluluğudur. Bazı durumlarda bir veri yapısı, belirli bir veri türü için temel uygulama haline gelebilir. Linear, Tree, Hash."
+		},
+		{
+			"id": "44",
+			"question": "Uzman bilgisayar bilgisi olmayan birine teknik terimleri açıklama yönteminizi açıklayabilir misiniz?",
+			"answer": "Bu amaçla görsel modelleme kullanılır. Lütfen unutmayın - resim bin kelimeye bedeldir. Bunu göz önünde bulundurun, basit bir ekran düzeni bir işlevin ayrıntılarını (bir kullanıcı ekleme, müşteri ekleme vb.) teknik bilgisi olmayan bir kişiye bile kolayca iletebilir. Benzer şekilde, bir sürecin ayrıntılarını iletmek için basit bir akış şeması oluşturabiliriz. Akış şemasını anlamak kolaydır. Bilgileri teknik olmayan bir kitleye iletmek için sunumları da kullanabilirsiniz."
+		},
+		{
+			"id": "45",
+			"question": "Seçmek zorunda kalsaydınız, en iyi iki programlama diliniz hangileridir ve bunlar hakkında nelerden hoşlanırsınız?",
+			"answer": "Benim için en büyük etkiyi yaratan iki dil Prolog ve OCaml. Hiçbir şeyde en iyi olduklarını düşünmüyorum ve öğrenilecek en iyiler de değiller. Ancak her birini öğrenmek, programlama hakkındaki düşüncemi tamamen değiştiren en iyi öğrenme deneyimiydi."
+		},
+		{
+			"id": "46",
+			"question": "Başlangıçta başka bir kişi tarafından yazılan kodla çalışmaktan ne kadar rahatsınız?",
+			"answer": "6 ay önce yazdığınız kodun sanki başkası tarafından yazılmış gibi hissedileceğini garanti edebilirim. Yani cevap: 'Tamamen rahat çünkü öyle olmak zorundasın.'"
+		},
+		{
+			"id": "47",
+			"question": "Sizinkinin veya bir meslektaşınızın programlama çalışmasını iki kez kontrol etmek söz konusu olduğunda en önemli şeyin ne olduğunu düşünüyorsunuz?",
+			"answer": "Hataları düzeltmek, ilk etapta bir şeylerin neden yanlış olduğunu anlamak için problem çözme becerilerini kullanabilmek kadar önemlidir. Potansiyel bir bilgisayar mühendisinin, kod prova söz konusu olduğunda en önemli olarak gördüğü şeyi sormak, size hangi değerleri en yüksek tuttuklarını söyler."
+		},
+		{
+			"id": "48",
+			"question": "Programlama yaparken kullanmayı tercih ettiğiniz işletim sistemi nedir ve neden?",
+			"answer": "Linux hızlı, verimli ve hafif bir işletim sistemidir. Kaynak kodları ve komut dosyaları Linux'ta daha hızlı çalışır, bu yüzden programcılar için en iyi işletim sistemidir."
+		},
+		{
+			"id": "49",
+			"question": "Kodunuzda hata yapmaktan nasıl kaçınırsınız?",
+			"answer": "Kodlamanın tadını çıkarın. Hatalardan öğrenmek. Kodlamanın sürekli öğrenme ve iyileştirme gerektiren bir şey olduğunu daima hatırlayın. Neyi ve nasıl uygulayacağınıza dair bir planınız olsun. kodunuzu alıyor?"
+		},
+		{
+			"id": "50",
+			"question": "Hangi programlama dillerini biliyorsunuz?",
+			"answer": "Birden fazla programlama diline aşinayım. Yolculuğa C ile başladı - Teorik kitaplar ve pratik yaparak öğrendim. Ardından, üstün, efsanevi C++, C ile aynı hikaye geliyor. Hepsi kitaplardan. Ama günün sonunda, hiçbiriyle rahat değildim, bu yüzden ikisini de atladım ve ön uç tasarım dillerini öğrenmeye gittim. HTML, CSS ve Javascript'in temellerini yaptım."
+		}
+	],
+	"employee_satisfaction_questions": [
+		{
+			"id": "1",
+			"question": "Şirketimizin kültürünü seviyor musunuz?",
+			"answer": "Evet, gerçekten çok zevk alıyorum. Çünkü işini bitirdiğin sürece sorun yok, yani gerçek bir çalışma ortamında çalışabilirsin."
+		},
+		{
+			"id": "2",
+			"question": "İş arkadaşlarınıza bağlı hissediyor musunuz?",
+			"answer": "İş arkadaşlarıma çok bağlı hissediyorum. Hepsi çok yardımsever ve beni tüm hayatım boyunca tanıyormuş gibi davranıyorlar."
+		},
+		{
+			"id": "3",
+			"question": "Kurum olarak değişime ne kadar açığız?",
+			"answer": "Güncel değişiklikleri yakalamak için elinizden gelenin en iyisini yapmaya çalışıyorsunuz, bu yüzden değişime açık olduğunuzu rahatlıkla söyleyebilirim."
+		},
+		{
+			"id": "4",
+			"question": "Yöneticileriniz geri bildiriminize değer veriyor mu?",
+			"answer": "Çalışma ortamında fikirlerime değer verildiğini hissediyorum."
+		},
+		{
+			"id": "5",
+			"question": "Katkılarınız için değerli hissediyor musunuz?",
+			"answer": "Ne yazık ki hayır, bir şey hakkında konuştuğumda kimse ne düşündüğümü umursamıyor gibi görünüyor."
+		},
+		{
+			"id": "6",
+			"question": "Üstleriniz şirket haberlerini etkin ve zamanında iletiyor mu?",
+			"answer": "Hepsi bize zamanında haber verirler."
+		},
+		{
+			"id": "7",
+			"question": "Yönetim ekibin başarısına yatırım yapmış görünüyor mu?",
+			"answer": "Hayır, sadece parayı önemsiyorlar. Para kazandığımız sürece takımın başarısı önemsizdir."
+		},
+		{
+			"id": "8",
+			"question": "Yönetimin ne kadar şeffaf olduğunu düşünüyorsunuz?",
+			"answer": "Oldukça şeffafler. Şirkette bir şey olduğunda haberleri duymuyoruz."
+		},
+		{
+			"id": "9",
+			"question": "İşin ekibiniz arasında eşit olarak dağıldığını düşünüyor musunuz?",
+			"answer": "Hayır, ekibimde 6 aptalla çalışıyorum, bu yüzden her şeyi kendi başıma yapmak zorundayım."
+		},
+		{
+			"id": "10",
+			"question": "Yaptığınız işi anlamlı buluyor musunuz?",
+			"answer": "Ne yazık ki hayır, burada sadece para için çalışıyorum. İmkanım olduğunda ayrılacağım."
+		},
+		{
+			"id": "11",
+			"question": "Şirketimiz terfi ve kariyer gelişimi için yeterli fırsatlar sunuyor mu?",
+			"answer": "Evet bu fırsatları tanıyorlar. 6 ayda ofis müdürü oldum. Burada çok kolay bir şekilde yükselebilirsiniz."
+		},
+		{
+			"id": "12",
+			"question": "Şirketimiz size işinizi iyi yapmanız için ihtiyaç duyduğunuz araçları ve teknolojileri sağlıyor mu?",
+			"answer": "Çalışmak için kendime bir dizüstü bilgisayar almam gerekiyordu. Sizce sağlıyorlar mı?"
+		},
+		{
+			"id": "13",
+			"question": "İş sorumluluklarınızın açıkça tanımlanmış olduğunu düşünüyor musunuz?",
+			"answer": "2 yıldır burada çalışıyorum ve hala ne yaptığımı bilmiyorum. Yani net olarak açıklayamıyorlar."
+		},
+		{
+			"id": "14",
+			"question": "İşinizin becerilerinizi ve yeteneklerinizi olabildiğince kullandığını düşünüyor musunuz?",
+			"answer": "Hayır, düşünmüyorum."
+		},
+		{
+			"id": "15",
+			"question": "iş yerinde ne kadar mutlusun?",
+			"answer": "Bir sayı vermem gerekirse 10000 üzerinden 10 veririm."
+		},
+		{
+			"id": "16",
+			"question": "Kuruluşun stratejik hedeflerine ilişkin net bir anlayış var mı?",
+			"answer": "Maalesef, hayır."
+		},
+		{
+			"id": "17",
+			"question": "Şirket hedeflerine ulaşmada rolünüzün ne talep ettiği size açık mı?",
+			"answer": "Evet gün gibi ortada."
+		},
+		{
+			"id": "18",
+			"question": "Şirket içinde bireysel kariyer gelişimi ve gelişimi için bir fırsat olduğuna inanıyor musunuz?",
+			"answer": "Hayır. 2 yıldır burada çalışıyorum ve terfi alamasam da tüm zor işleri ben yapıyorum."
+		},
+		{
+			"id": "19",
+			"question": "Önümüzdeki 2 yıl içinde aynı kurumda mı çalışacaksın?",
+			"answer": "Evet, emekli olana kadar burada çalışacağımı düşünüyorum. Burada çalışmayı seviyorum."
+		},
+		{
+			"id": "20",
+			"question": "Genel olarak işinizden memnun musunuz?",
+			"answer": "Daha fazla para alsaydım daha çok memnun olurdum ama şu anda o kadar da memnun değilim."
+		},
+		{
+			"id": "21",
+			"question": "Ekibinizin bir üyesi olmaktan keyif alıyor musunuz?",
+			"answer": "Harika insanlarla çalışıyorum. Bu yüzden meslektaşlarımla çalışmaktan gerçekten çok mutluyum."
+		},
+		{
+			"id": "22",
+			"question": "Ekibiniz, işinizde elinizden gelenin en iyisini yapmanız için size bir ilham kaynağı mı?",
+			"answer": "Hayır, ekibimden nefret ediyorum."
+		},
+		{
+			"id": "23",
+			"question": "Ekibiniz gerektiğinde size iş yerinde destek sağlıyor mu?",
+			"answer": "Evet moral desteği veriyorlar."
+		},
+		{
+			"id": "24",
+			"question": "İşyerinde daha iyi kararlar almak için bilgi almakta zorlanıyor musunuz?",
+			"answer": "Kimse ne yaptığımı umursamıyor, bu yüzden bilgi almak çok zor."
+		},
+		{
+			"id": "25",
+			"question": "Olağandışı bir şey ortaya çıkarsa, çözüm için kime başvuracağınızı biliyor musunuz?",
+			"answer": "Aslında hayır, çünkü beceriksizim. Bir şey olduğunda ne yapmam gerektiğini bilmiyorum."
+		},
+		{
+			"id": "26",
+			"question": "Kuruluş, görevlerinizi iyi bir şekilde yerine getirmeniz için tüm kaynaklar ve araçlar hakkında sizi bilgilendiriyor mu?",
+			"answer": "Hayır bilgilendirmiyorlar."
+		},
+		{
+			"id": "27",
+			"question": "Üstleriniz, yöneticileriniz elinizden gelenin en iyisini yapmanız için sizi teşvik ediyor mu?",
+			"answer": "Evet, bana her zaman yardım ederler. Bilmediğim veya yapamadığım bir konuya takıldığımda bana yardımcı olmak için kendi işlerini bırakıyorlar."
+		},
+		{
+			"id": "28",
+			"question": "İşe olan bağlılığınız ve bağlılığınız için ödüllendirildiğinizi düşünüyor musunuz?",
+			"answer": "Para kazanıyorum bebeğim."
+		},
+		{
+			"id": "29",
+			"question": "Görüşlerinizin üstünüz tarafından duyulduğunu ve değer verildiğini düşünüyor musunuz?",
+			"answer": "Sadece parayı önemsiyorlar, fikirlerimizi değil."
+		},
+		{
+			"id": "30",
+			"question": "Beceri geliştirme gibi kişisel gelişim için bir alan olduğunu düşünüyor musunuz?",
+			"answer": "Hayır, işimden nefret ediyorum."
+		},
+		{
+			"id": "31",
+			"question": "Becerilerinizi geliştirmek ve düzenli yapılacaklar dışında başka görevleri öğrenmek gibi kişisel gelişim yaşıyor musunuz?",
+			"answer": "Yapacak çok fazla işim var, bu yüzden yeni beceriler öğrenmek için zamanım yok."
+		},
+		{
+			"id": "32",
+			"question": "Liderlikle ilgili kararlar alırken yönetim sizi dahil ediyor mu?",
+			"answer": "Yöneticinin oğluysanız evet. Ama benim görüşlerim hayır."
+		},
+		{
+			"id": "33",
+			"question": "Yöneticinizin size değer verdiğini düşünüyor musunuz?",
+			"answer": "Bizimle çok ilgileniyor. İhtiyaçlarımızı kendi ihtiyaçlarının önüne koyar."
+		},
+		{
+			"id": "34",
+			"question": "Bir görevi yerine getirmek için sınırlarınızı aştığınızı düşünüyor musunuz?",
+			"answer": "Günde 10 saat çalışıyorum. Ne düşünüyorsun?"
+		},
+		{
+			"id": "35",
+			"question": "İşinizin başkalarının hayatında olumlu bir fark yarattığını düşünüyor musunuz?",
+			"answer": "Evet, patronum için olumlu bir fark yaratıyor. Yaptığım iş için çok fazla kazanıyor."
+		},
+		{
+			"id": "36",
+			"question": "Müşteri sorunlarını çözmek için yeterli eğitim aldığınızı düşünüyor musunuz?",
+			"answer": "3 yıldır burada çalışıyorum. Müşterinin sorunlarını çözmek için yeterli deneyime sahip olduğumu düşünüyorum."
+		},
+		{
+			"id": "37",
+			"question": "Yönetimin kişisel aile zamanınıza saygı duyduğunu düşünüyor musunuz?",
+			"answer": "Evet, günlük işlerimi bitirirsem ailemi görmek için işten erken ayrılabilirim."
+		},
+		{
+			"id": "38",
+			"question": "Yöneticinizden yapıcı geri bildirim alıyor musunuz?",
+			"answer": "Yaptığım işle ilgili bana her zaman geri bildirimde bulunur."
+		},
+		{
+			"id": "39",
+			"question": "İyi bir iş çıkardığınızda yöneticiniz sizi övüyor mu?",
+			"answer": "Hayır yapmaz. O beni kıskanıyor."
+		},
+		{
+			"id": "40",
+			"question": "İşyerindeki ortamın, iş hayatınız ile özel hayatınız arasında doğru dengeyi kurmanıza yardımcı olduğunu düşünüyor musunuz?",
+			"answer": "Çok çalışmak zorundayım, aileme ayıracak vaktim yok."
+		},
+		{
+			"id": "41",
+			"question": "İşiniz sizin için makul olmayan miktarda strese neden oluyor mu?",
+			"answer": "Çalışmıyorum bu yüzden iş stresim yok."
+		},
+		{
+			"id": "42",
+			"question": "Yöneticinizin iş ve özel yaşam arasında sağlıklı bir denge kurduğunu düşünüyor musunuz?",
+			"answer": "Hayır kurmuyor, beni saat fark etmeksizin arayıp işle ilgili bir sıkıntı olduğunu söylüyor."
+		},
+		{
+			"id": "43",
+			"question": "Yöneticinizin tüm ekip üyelerine eşit davrandığını düşünüyor musunuz?",
+			"answer": "Evet, o çok adil."
+		},
+		{
+			"id": "44",
+			"question": "Kuruluşun tüm çalışanlar için terfi için adil politikaları olduğunu düşünüyor musunuz?",
+			"answer": "Yöneticinin oğluysanız, terfi etme şansınız var, yoksa hayır."
+		},
+		{
+			"id": "45",
+			"question": "Yönetimin sadece çalışanlarla ilgili politikaları yönetmeye yönelik olduğunu düşünüyor musunuz?",
+			"answer": "Evet, her zaman bizim hakkımızda en iyisini düşünürler."
+		},
+		{
+			"id": "46",
+			"question": "Tipik bir haftada, iş yerinde ne sıklıkla stresli hissediyorsunuz?",
+			"answer": "Haftanın 7 günü."
+		},
+		{
+			"id": "47",
+			"question": "Yaptığınız iş için ne kadar iyi ücret alıyorsunuz?",
+			"answer": "O kadar da değil, stajyer olduğum için ödeyebilecekleri en düşük tutarı ödüyorlar."
+		},
+		{
+			"id": "48",
+			"question": "Şirket dışında başka bir iş arama olasılığınız nedir?",
+			"answer": "Çok olası. hiç mutlu değilim."
+		},
+		{
+			"id": "49",
+			"question": "Bu kuruluşla ilişkili olmaktan özellikle gurur duyduğunuz bir zamanı anlatın.",
+			"answer": "Hiçbir zaman böyle hissetmedim."
+		},
+		{
+			"id": "50",
+			"question": "Kurumsal değerlerden hangisi size daha çok hitap ediyor?",
+			"answer": "Para."
+		}
+	]
+}

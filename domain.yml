@@ -1,0 +1,75 @@
+version: '3.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- contact_deny
+- name_info
+- answer
+- contact_info
+- contact_confirm
+- goodbye
+entities:
+- mail
+- name
+- phone
+slots:
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: name
+  mail:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: mail
+  phone:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: phone
+responses:
+  utter_merhaba:
+  - text: |-
+      Merhabalar, Bugün mülakatınızı ben gerçekleştireceğim.
+      Sizi daha iyi tanımak ve size nasıl hitap edeceğimi belirlemek için adınızı söyler misiniz?
+  utter_baybay:
+  - text: Bütün cevaplar için teşekkürler, mülakatınız değerlendirildikten sonra en yakın zamanda sizinle iletişime geçilecek!
+  utter_selamlama:
+  - text: |-
+      Tanıştığımıza memnun oldum {name}!
+      İleride size daha kolay ulaşmamız adına e-mail adresinizi ve telefon numarınızı alabilir miyim?
+  utter_iletisim_dogrula:
+  - text: |-
+      Teşekkürler, Kontrolü sağlamak adına, bu bilgilerin doğruluğu teyit eder misiniz mail: {mail} ve telefon numarası: {phone}?
+      Eğer doğruysa evet, yanlış ise hayır yazın.
+  utter_iletisim_tekrar:
+  - text: |-
+      Bilgilerinizi alırken bir hata ile karşılaştım.
+      Lütfen aşağıdaki formattı takip ederek bilgilerinizi tekrar yazınız:
+      örnek@örnek.com, 05055055050
+  utter_dogrulama:
+  - text: Harika!
+actions:
+- action_interview_questions
+- utter_baybay
+- utter_dogrulama
+- utter_iletisim_dogrula
+- utter_iletisim_tekrar
+- utter_merhaba
+- utter_selamlama
+forms:
+  name_form:
+    required_slots:
+    - name
+  mail_form:
+    required_slots:
+    - mail
+  phone_form:
+    required_slots:
+    - phone
